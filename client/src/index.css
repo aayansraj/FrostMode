@@ -26,6 +26,13 @@
   }
 }
 
+/* Custom Interactive Ice Cursor for Desktop */
+@media (pointer: fine) {
+  body, a, button, input, select, textarea, [role="button"] {
+    cursor: none !important;
+  }
+}
+
 body {
   background-color: var(--bg-main);
   color: var(--text-primary);

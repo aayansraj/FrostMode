@@ -52,6 +52,8 @@ const AppRoutes = () => {
 
 import { GoogleOAuthProvider } from "@react-oauth/google";
 
+import { CustomCursor } from "./components/CustomCursor";
+
 const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || "";
 
 export default function App() {
@@ -60,6 +62,7 @@ export default function App() {
       <AuthProvider>
         <ThemeProvider>
           <Router>
+            <CustomCursor />
             <SnowBackground />
             <AppRoutes />
           </Router>
