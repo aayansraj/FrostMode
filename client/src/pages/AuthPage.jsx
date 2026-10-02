@@ -48,14 +48,15 @@ export const AuthPage = () => {
       await googleLogin({ credential: credentialResponse.credential });
       navigate("/dashboard");
     } catch (err) {
-      setError(err.response?.data?.error || "Google authentication failed");
+      console.error("Google login backend error:", err);
+      setError(err.response?.data?.error || "Google authentication failed on server.");
     } finally {
       setLoading(false);
     }
   };
 
   const handleGoogleError = () => {
-    setError("Google Sign In failed or was cancelled.");
+    setError("Google Sign In failed. Ensure http://localhost:3000 and your live site URL are added under Authorized JavaScript Origins in Google Cloud Console.");
   };
 
   const handleGoogleSimulated = async () => {
@@ -69,7 +70,8 @@ export const AuthPage = () => {
       });
       navigate("/dashboard");
     } catch (err) {
-      setError("Google sign in failed");
+      console.error("Demo Google Login error:", err);
+      setError(err.response?.data?.error || "Demo Google authentication failed.");
     } finally {
       setLoading(false);
     }

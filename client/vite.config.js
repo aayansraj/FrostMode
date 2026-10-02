@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     port: 3000,
+    strictPort: true,
     proxy: {
       '/api': {
         target: 'http://localhost:5050',
@@ -16,7 +17,7 @@ export default defineConfig({
         target: 'http://localhost:5050',
         ws: true,
         configure: (proxy) => {
-          proxy.on('error', (err) => {
+          proxy.on('error', () => {
             // Ignore non-fatal websocket proxy disconnect error (EPIPE)
           });
         }
