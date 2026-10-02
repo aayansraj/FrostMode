@@ -1,0 +1,16 @@
+{
+  "short_name": "FrostMode",
+  "name": "FrostMode – Lock In. Level Up.",
+  "icons": [
+    {
+      "src": "/snowflake.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0b1120",
+  "theme_color": "#38bdf8",
+  "display": "standalone",
+  "orientation": "portrait"
+}

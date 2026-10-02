@@ -1,0 +1,1001 @@
+id,title,category,points,strict,difficulty
+1,Wake up by 4:30 AM,Morning,35,True,hard
+2,Wake up by 4:45 AM,Morning,33,True,hard
+3,Wake up by 5:00 AM,Morning,30,True,hard
+4,Wake up by 5:15 AM,Morning,28,True,hard
+5,Wake up by 5:30 AM,Morning,25,True,medium
+6,Wake up by 5:45 AM,Morning,22,False,medium
+7,Wake up by 6:00 AM,Morning,20,False,medium
+8,Wake up by 6:15 AM,Morning,17,False,easy
+9,Wake up by 6:30 AM,Morning,15,False,easy
+10,Wake up by 6:45 AM,Morning,12,False,easy
+11,Wake up by 7:00 AM,Morning,10,False,easy
+12,Drink 1 glass of water after waking,Morning,5,False,easy
+13,Drink 2 glasses of water after waking,Morning,8,False,easy
+14,Drink 3 glasses of water after waking,Morning,11,False,easy
+15,Drink 4 glasses of water after waking,Morning,14,False,easy
+16,Meditate for 5 minutes,Morning,7,False,easy
+17,Meditate for 10 minutes,Morning,10,True,easy
+18,Meditate for 15 minutes,Morning,12,True,medium
+19,Meditate for 20 minutes,Morning,15,True,medium
+20,Meditate for 30 minutes,Morning,20,True,medium
+21,Morning journaling for 5 minutes,Morning,7,False,easy
+22,Morning journaling for 10 minutes,Morning,10,False,easy
+23,Morning journaling for 15 minutes,Morning,12,False,easy
+24,No phone for the first 30 minutes after waking,Morning,16,False,medium
+25,No phone for the first 60 minutes after waking,Morning,22,True,medium
+26,No phone for the first 90 minutes after waking,Morning,28,True,medium
+27,Cold shower for 1 minute,Morning,11,False,medium
+28,Cold shower for 2 minutes,Morning,14,False,medium
+29,Cold shower for 3 minutes,Morning,17,False,hard
+30,Cold shower for 5 minutes,Morning,23,False,hard
+31,Make your bed,Morning,6,False,easy
+32,Brush teeth and tongue-scrape,Morning,6,False,easy
+33,Wash face and apply sunscreen,Morning,6,False,easy
+34,Take 5 deep breaths in sunlight,Morning,6,False,easy
+35,Stretch for 5 minutes,Morning,6,False,easy
+36,Write top 3 goals for today,Morning,6,False,easy
+37,Review today's plan,Morning,6,False,easy
+38,Read daily affirmations aloud,Morning,6,False,easy
+39,Prepare a healthy breakfast,Morning,6,False,easy
+40,Pack your bag the right way,Morning,6,False,easy
+41,Say a prayer or gratitude line,Morning,6,False,easy
+42,Open windows for fresh air,Morning,6,False,easy
+43,"Wear clean, planned clothes",Morning,6,False,easy
+44,Eat breakfast before 9 AM,Morning,6,False,easy
+45,Check weather and plan accordingly,Morning,6,False,easy
+46,Do 10 minutes of sunlight exposure,Morning,6,False,easy
+47,Listen to a motivational talk (10 min),Morning,6,False,easy
+48,Visualize your day for 3 minutes,Morning,6,False,easy
+49,Water your plants,Morning,6,False,easy
+50,Clean your desk before starting,Morning,6,False,easy
+51,Take vitamins/supplements on time,Morning,6,False,easy
+52,Do 20 squats to wake up the body,Morning,6,False,easy
+53,Avoid snoozing the alarm,Morning,6,False,easy
+54,Place phone away from bed overnight,Morning,6,False,easy
+55,Read one page of a book,Morning,6,False,easy
+56,Write one thing you will not skip today,Morning,6,False,easy
+57,Skip news and social feeds in the morning,Morning,6,False,easy
+58,Take a 10-minute morning walk,Morning,6,False,easy
+59,Do a 2-minute plank to start the day,Morning,6,False,easy
+60,Eat soaked almonds or nuts,Morning,6,False,easy
+61,Drink warm lemon water,Morning,6,False,easy
+62,Do a 5-minute room tidy,Morning,6,False,easy
+63,Wake up without snooze for 3 days straight,Morning,40,True,hard
+64,Complete full morning routine before 8 AM,Morning,40,True,hard
+65,Do 25 push-ups,Fitness,8,False,easy
+66,Do 50 push-ups,Fitness,15,False,medium
+67,Do 100 push-ups,Fitness,22,True,hard
+68,Do 150 push-ups,Fitness,29,True,hard
+69,Do 50 squats,Fitness,8,False,easy
+70,Do 100 squats,Fitness,15,False,medium
+71,Do 200 squats,Fitness,22,True,hard
+72,Do 300 squats,Fitness,29,True,hard
+73,Do 25 sit-ups,Fitness,8,False,easy
+74,Do 50 sit-ups,Fitness,15,False,medium
+75,Do 100 sit-ups,Fitness,22,True,hard
+76,Do 150 sit-ups,Fitness,29,True,hard
+77,Do 5 pull-ups,Fitness,8,False,easy
+78,Do 10 pull-ups,Fitness,15,False,medium
+79,Do 20 pull-ups,Fitness,22,True,hard
+80,Do 30 pull-ups,Fitness,29,True,hard
+81,Do 10 burpees,Fitness,8,False,easy
+82,Do 25 burpees,Fitness,15,False,medium
+83,Do 50 burpees,Fitness,22,True,hard
+84,Do 100 burpees,Fitness,29,True,hard
+85,Do 20 lunges,Fitness,8,False,easy
+86,Do 40 lunges,Fitness,15,False,medium
+87,Do 80 lunges,Fitness,22,True,hard
+88,Do 120 lunges,Fitness,29,True,hard
+89,Do 50 jumping jacks,Fitness,8,False,easy
+90,Do 100 jumping jacks,Fitness,15,False,medium
+91,Do 200 jumping jacks,Fitness,22,True,hard
+92,Do 300 jumping jacks,Fitness,29,True,hard
+93,Do 10 dips,Fitness,8,False,easy
+94,Do 20 dips,Fitness,15,False,medium
+95,Do 40 dips,Fitness,22,True,hard
+96,Do 60 dips,Fitness,29,True,hard
+97,Do 30 mountain climbers,Fitness,8,False,easy
+98,Do 60 mountain climbers,Fitness,15,False,medium
+99,Do 100 mountain climbers,Fitness,22,True,hard
+100,Do 150 mountain climbers,Fitness,29,True,hard
+101,Do 30 crunches,Fitness,8,False,easy
+102,Do 60 crunches,Fitness,15,False,medium
+103,Do 100 crunches,Fitness,22,True,hard
+104,Do 150 crunches,Fitness,29,True,hard
+105,Do 100 skipping rope jumps,Fitness,8,False,easy
+106,Do 300 skipping rope jumps,Fitness,15,False,medium
+107,Do 500 skipping rope jumps,Fitness,22,True,hard
+108,Do 1000 skipping rope jumps,Fitness,29,True,hard
+109,Do 15 leg raises,Fitness,8,False,easy
+110,Do 30 leg raises,Fitness,15,False,medium
+111,Do 50 leg raises,Fitness,22,True,hard
+112,Do 80 leg raises,Fitness,29,True,hard
+113,Plank for 1 minute,Fitness,10,False,medium
+114,Plank for 2 minutes,Fitness,17,False,medium
+115,Plank for 3 minutes,Fitness,24,True,hard
+116,Plank for 5 minutes,Fitness,31,True,hard
+117,Wall sit for 1 minute,Fitness,10,False,medium
+118,Wall sit for 2 minutes,Fitness,17,False,medium
+119,Wall sit for 3 minutes,Fitness,24,True,hard
+120,Dead hang for 30 seconds,Fitness,10,False,medium
+121,Dead hang for 60 seconds,Fitness,17,False,medium
+122,Dead hang for 90 seconds,Fitness,24,True,hard
+123,Run 1 km,Fitness,14,False,easy
+124,Run 2 km,Fitness,18,False,easy
+125,Run 3 km,Fitness,22,False,medium
+126,Run 5 km,Fitness,30,True,medium
+127,Run 8 km,Fitness,42,True,hard
+128,Run 10 km,Fitness,50,True,hard
+129,Run 15 km,Fitness,70,True,hard
+130,"Walk 3,000 steps",Fitness,9,False,easy
+131,"Walk 5,000 steps",Fitness,13,False,easy
+132,"Walk 8,000 steps",Fitness,19,False,medium
+133,"Walk 10,000 steps",Fitness,23,True,medium
+134,"Walk 12,000 steps",Fitness,27,True,medium
+135,"Walk 15,000 steps",Fitness,33,True,medium
+136,Cycle for 15 minutes,Fitness,13,False,medium
+137,Cycle for 30 minutes,Fitness,18,False,medium
+138,Cycle for 45 minutes,Fitness,23,False,medium
+139,Cycle for 60 minutes,Fitness,28,False,medium
+140,Swim for 15 minutes,Fitness,17,False,medium
+141,Swim for 30 minutes,Fitness,25,False,medium
+142,Swim for 45 minutes,Fitness,32,False,medium
+143,Yoga for 10 minutes,Fitness,9,False,easy
+144,Yoga for 20 minutes,Fitness,12,False,easy
+145,Yoga for 30 minutes,Fitness,16,False,easy
+146,Yoga for 45 minutes,Fitness,21,False,easy
+147,Yoga for 60 minutes,Fitness,26,False,easy
+148,Do 5 rounds of Surya Namaskar,Fitness,13,False,medium
+149,Do 12 rounds of Surya Namaskar,Fitness,20,True,medium
+150,Do 24 rounds of Surya Namaskar,Fitness,32,True,medium
+151,Gym or home workout for 15 minutes,Fitness,15,False,medium
+152,Gym or home workout for 20 minutes,Fitness,16,False,medium
+153,Gym or home workout for 30 minutes,Fitness,20,False,medium
+154,Gym or home workout for 45 minutes,Fitness,25,True,medium
+155,Gym or home workout for 60 minutes,Fitness,30,True,hard
+156,Gym or home workout for 75 minutes,Fitness,35,True,hard
+157,Gym or home workout for 90 minutes,Fitness,40,True,hard
+158,Complete Chest day workout,Fitness,25,True,medium
+159,Complete Back day workout,Fitness,25,True,medium
+160,Complete Leg day workout,Fitness,25,True,medium
+161,Complete Shoulder day workout,Fitness,25,True,medium
+162,Complete Arms day workout,Fitness,25,True,medium
+163,Complete Core day workout,Fitness,25,True,medium
+164,Complete Full body day workout,Fitness,25,True,medium
+165,Complete Cardio day workout,Fitness,25,True,medium
+166,Complete Mobility day workout,Fitness,25,True,medium
+167,Complete HIIT 20 minutes workout,Fitness,25,True,medium
+168,Complete Tabata 4 minutes workout,Fitness,25,True,medium
+169,Play badminton for 30 minutes,Fitness,18,False,easy
+170,Play cricket for 30 minutes,Fitness,18,False,easy
+171,Play football for 30 minutes,Fitness,18,False,easy
+172,Play basketball for 30 minutes,Fitness,18,False,easy
+173,Play table tennis for 30 minutes,Fitness,18,False,easy
+174,Play volleyball for 30 minutes,Fitness,18,False,easy
+175,Play tennis for 30 minutes,Fitness,18,False,easy
+176,Take the stairs instead of the lift,Fitness,7,False,easy
+177,Warm up 5 minutes before workout,Fitness,7,False,easy
+178,Cool down and stretch after workout,Fitness,7,False,easy
+179,Log your workout in a notebook,Fitness,7,False,easy
+180,Beat yesterday's reps in one exercise,Fitness,7,False,easy
+181,Foam roll for 5 minutes,Fitness,7,False,easy
+182,Fix your posture checks 5 times today,Fitness,7,False,easy
+183,Stand and walk 5 minutes every hour,Fitness,7,False,easy
+184,Record your weight and measurements,Fitness,7,False,easy
+185,Do 10 minutes of core only,Fitness,7,False,easy
+186,Try a new exercise today,Fitness,7,False,easy
+187,Do neck and shoulder mobility,Fitness,7,False,easy
+188,Do hip mobility for 5 minutes,Fitness,7,False,easy
+189,Walk after dinner for 15 minutes,Fitness,7,False,easy
+190,Do 5 minutes of balance practice,Fitness,7,False,easy
+191,Train with proper form video review,Fitness,7,False,easy
+192,Drink 1 litres of water today,Diet & Health,9,False,easy
+193,Drink 2 litres of water today,Diet & Health,13,False,easy
+194,Drink 3 litres of water today,Diet & Health,17,True,medium
+195,Drink 4 litres of water today,Diet & Health,21,True,medium
+196,Eat 60 g of protein,Diet & Health,14,False,medium
+197,Eat 80 g of protein,Diet & Health,16,False,medium
+198,Eat 100 g of protein,Diet & Health,18,False,medium
+199,Eat 120 g of protein,Diet & Health,20,False,medium
+200,No junk food today,Diet & Health,12,True,easy
+201,No sugary drinks today,Diet & Health,12,True,easy
+202,No fried food today,Diet & Health,12,True,easy
+203,No packed snacks today,Diet & Health,12,True,easy
+204,No outside food today,Diet & Health,12,True,easy
+205,No sweets or desserts today,Diet & Health,12,True,easy
+206,No late-night snacking,Diet & Health,12,False,easy
+207,No soft drinks,Diet & Health,12,False,easy
+208,No energy drinks,Diet & Health,12,False,easy
+209,No chips or namkeen,Diet & Health,12,False,easy
+210,Skip added sugar in tea or coffee,Diet & Health,6,False,easy
+211,Limit tea or coffee to 2 cups,Diet & Health,6,False,easy
+212,Eat dinner before 8:30 PM,Diet & Health,6,False,easy
+213,Eat slowly and chew properly,Diet & Health,6,False,easy
+214,Eat without phone or TV,Diet & Health,6,False,easy
+215,Eat a balanced home-cooked meal,Diet & Health,6,False,easy
+216,Eat a salad with lunch,Diet & Health,6,False,easy
+217,Eat one fruit,Diet & Health,6,False,easy
+218,Eat two fruits,Diet & Health,6,False,easy
+219,Eat three servings of vegetables,Diet & Health,6,False,easy
+220,Eat green leafy vegetables,Diet & Health,6,False,easy
+221,Eat sprouts or dal,Diet & Health,6,False,easy
+222,Eat curd or buttermilk,Diet & Health,6,False,easy
+223,Eat a handful of nuts,Diet & Health,6,False,easy
+224,Eat eggs or paneer for protein,Diet & Health,6,False,easy
+225,Prepare meals at home,Diet & Health,6,False,easy
+226,Plan tomorrow's meals,Diet & Health,6,False,easy
+227,Prepare a healthy grocery list,Diet & Health,6,False,easy
+228,Take multivitamin or prescribed supplements,Diet & Health,6,False,easy
+229,Eat breakfast within 1 hour of waking,Diet & Health,6,False,easy
+230,Avoid overeating at any meal,Diet & Health,6,False,easy
+231,Stop eating when 80% full,Diet & Health,6,False,easy
+232,Drink water before every meal,Diet & Health,6,False,easy
+233,Avoid refined flour (maida) today,Diet & Health,6,False,easy
+234,Avoid deep-fried street food,Diet & Health,6,False,easy
+235,Try intermittent fasting window (12 hours),Diet & Health,6,False,easy
+236,Try intermittent fasting window (14 hours),Diet & Health,6,False,easy
+237,Try intermittent fasting window (16 hours),Diet & Health,6,False,easy
+238,Track your calories in an app,Diet & Health,6,False,easy
+239,Track your water intake,Diet & Health,6,False,easy
+240,Eat seasonal fruits,Diet & Health,6,False,easy
+241,Include fibre in every meal,Diet & Health,6,False,easy
+242,Replace one snack with fruit or nuts,Diet & Health,6,False,easy
+243,Cook a new healthy recipe,Diet & Health,6,False,easy
+244,Wash hands before meals,Diet & Health,6,False,easy
+245,Brush teeth twice,Diet & Health,6,False,easy
+246,Floss your teeth,Diet & Health,6,False,easy
+247,Get 10 minutes of sunlight,Diet & Health,6,False,easy
+248,Take an eye break every 20 minutes (20-20-20),Diet & Health,6,False,easy
+249,Check your posture while sitting,Diet & Health,6,False,easy
+250,Do 5 minutes of deep breathing,Diet & Health,6,False,easy
+251,Take a proper lunch break away from screen,Diet & Health,6,False,easy
+252,Get a health check-up when due,Diet & Health,6,False,easy
+253,Take a full day without alcohol or smoking,Diet & Health,6,False,easy
+254,Avoid vaping or tobacco completely,Diet & Health,6,False,easy
+255,Drink herbal tea instead of sugary tea,Diet & Health,6,False,easy
+256,Eat a light dinner,Diet & Health,6,False,easy
+257,Avoid caffeine after 4 PM,Diet & Health,6,False,easy
+258,Limit salt intake today,Diet & Health,6,False,easy
+259,Wear sunscreen outdoors,Diet & Health,6,False,easy
+260,Keep a clean water bottle with you,Diet & Health,6,False,easy
+261,Wash fruits and vegetables properly,Diet & Health,6,False,easy
+262,Weigh yourself once this week,Diet & Health,6,False,easy
+263,Stretch your back after long sitting,Diet & Health,6,False,easy
+264,Take a 5-minute walk after each meal,Diet & Health,6,False,easy
+265,Deep study for 1 hour (no phone),Study & Coding,18,False,easy
+266,Deep study for 2 hours (no phone),Study & Coding,26,True,medium
+267,Deep study for 3 hours (no phone),Study & Coding,34,True,medium
+268,Deep study for 4 hours (no phone),Study & Coding,42,True,hard
+269,Deep study for 5 hours (no phone),Study & Coding,50,True,hard
+270,Deep study for 6 hours (no phone),Study & Coding,58,True,hard
+271,Solve 1 LeetCode problem,Study & Coding,14,False,easy
+272,Solve 2 LeetCode problems,Study & Coding,20,True,easy
+273,Solve 3 LeetCode problems,Study & Coding,26,True,medium
+274,Solve 5 LeetCode problems,Study & Coding,38,True,medium
+275,Solve 7 LeetCode problems,Study & Coding,50,True,hard
+276,Solve 10 LeetCode problems,Study & Coding,68,True,hard
+277,Solve 1 DSA problem on GeeksforGeeks,Study & Coding,13,False,easy
+278,Solve 2 DSA problems on GeeksforGeeks,Study & Coding,18,False,easy
+279,Solve 3 DSA problems on GeeksforGeeks,Study & Coding,23,False,easy
+280,Solve 5 DSA problems on GeeksforGeeks,Study & Coding,33,False,easy
+281,Solve 1 Codeforces or CodeChef problem,Study & Coding,20,False,hard
+282,Solve 2 Codeforces or CodeChef problems,Study & Coding,28,False,hard
+283,Solve 3 Codeforces or CodeChef problems,Study & Coding,36,False,hard
+284,Read 10 pages of a textbook,Study & Coding,7,False,easy
+285,Read 20 pages of a textbook,Study & Coding,10,False,easy
+286,Read 30 pages of a textbook,Study & Coding,12,False,easy
+287,Read 50 pages of a textbook,Study & Coding,17,False,easy
+288,Code on a personal project for 30 minutes,Study & Coding,15,False,medium
+289,Code on a personal project for 60 minutes,Study & Coding,23,True,medium
+290,Code on a personal project for 90 minutes,Study & Coding,30,True,medium
+291,Code on a personal project for 120 minutes,Study & Coding,38,True,medium
+292,Complete 1 Pomodoro session,Study & Coding,10,False,easy
+293,Complete 2 Pomodoro sessions,Study & Coding,15,False,easy
+294,Complete 3 Pomodoro sessions,Study & Coding,20,False,easy
+295,Complete 4 Pomodoro sessions,Study & Coding,25,False,easy
+296,Study Arrays and solve 2 problems,Study & Coding,20,False,medium
+297,Study Strings and solve 2 problems,Study & Coding,20,False,medium
+298,Study Linked lists and solve 2 problems,Study & Coding,20,False,medium
+299,Study Stacks and solve 2 problems,Study & Coding,20,False,medium
+300,Study Queues and solve 2 problems,Study & Coding,20,False,medium
+301,Study Trees and solve 2 problems,Study & Coding,20,False,medium
+302,Study Binary search trees and solve 2 problems,Study & Coding,20,False,medium
+303,Study Heaps and solve 2 problems,Study & Coding,20,False,medium
+304,Study Graphs and solve 2 problems,Study & Coding,20,False,medium
+305,Study Hashing and solve 2 problems,Study & Coding,20,False,medium
+306,Study Recursion and solve 2 problems,Study & Coding,20,False,medium
+307,Study Backtracking and solve 2 problems,Study & Coding,20,False,medium
+308,Study Dynamic programming and solve 2 problems,Study & Coding,20,False,medium
+309,Study Greedy algorithms and solve 2 problems,Study & Coding,20,False,medium
+310,Study Sorting algorithms and solve 2 problems,Study & Coding,20,False,medium
+311,Study Binary search and solve 2 problems,Study & Coding,20,False,medium
+312,Study Sliding window and solve 2 problems,Study & Coding,20,False,medium
+313,Study Two pointers and solve 2 problems,Study & Coding,20,False,medium
+314,Study Bit manipulation and solve 2 problems,Study & Coding,20,False,medium
+315,Study Tries and solve 2 problems,Study & Coding,20,False,medium
+316,Revise one chapter of Operating Systems,Study & Coding,15,False,medium
+317,Solve 10 MCQs of Operating Systems,Study & Coding,12,False,easy
+318,Revise one chapter of DBMS,Study & Coding,15,False,medium
+319,Solve 10 MCQs of DBMS,Study & Coding,12,False,easy
+320,Revise one chapter of Computer Networks,Study & Coding,15,False,medium
+321,Solve 10 MCQs of Computer Networks,Study & Coding,12,False,easy
+322,Revise one chapter of OOP concepts,Study & Coding,15,False,medium
+323,Solve 10 MCQs of OOP concepts,Study & Coding,12,False,easy
+324,Revise one chapter of Data Structures,Study & Coding,15,False,medium
+325,Solve 10 MCQs of Data Structures,Study & Coding,12,False,easy
+326,Revise one chapter of Algorithms,Study & Coding,15,False,medium
+327,Solve 10 MCQs of Algorithms,Study & Coding,12,False,easy
+328,Revise one chapter of Software Engineering,Study & Coding,15,False,medium
+329,Solve 10 MCQs of Software Engineering,Study & Coding,12,False,easy
+330,Revise one chapter of Computer Organization,Study & Coding,15,False,medium
+331,Solve 10 MCQs of Computer Organization,Study & Coding,12,False,easy
+332,Revise one chapter of Discrete Mathematics,Study & Coding,15,False,medium
+333,Solve 10 MCQs of Discrete Mathematics,Study & Coding,12,False,easy
+334,Revise one chapter of Theory of Computation,Study & Coding,15,False,medium
+335,Solve 10 MCQs of Theory of Computation,Study & Coding,12,False,easy
+336,Revise one chapter of Compiler Design,Study & Coding,15,False,medium
+337,Solve 10 MCQs of Compiler Design,Study & Coding,12,False,easy
+338,Revise one chapter of Web Technologies,Study & Coding,15,False,medium
+339,Solve 10 MCQs of Web Technologies,Study & Coding,12,False,easy
+340,Revise one chapter of Machine Learning,Study & Coding,15,False,medium
+341,Solve 10 MCQs of Machine Learning,Study & Coding,12,False,easy
+342,Revise one chapter of Artificial Intelligence,Study & Coding,15,False,medium
+343,Solve 10 MCQs of Artificial Intelligence,Study & Coding,12,False,easy
+344,Revise one chapter of Cloud Computing,Study & Coding,15,False,medium
+345,Solve 10 MCQs of Cloud Computing,Study & Coding,12,False,easy
+346,Revise one chapter of Cyber Security,Study & Coding,15,False,medium
+347,Solve 10 MCQs of Cyber Security,Study & Coding,12,False,easy
+348,Complete pending assignment,Study & Coding,12,False,easy
+349,Submit assignment before deadline,Study & Coding,12,False,easy
+350,Attend all classes today,Study & Coding,12,False,easy
+351,Take handwritten notes in class,Study & Coding,12,False,easy
+352,Revise today's lecture notes,Study & Coding,12,False,easy
+353,Review notes before sleeping,Study & Coding,12,False,easy
+354,Make flashcards for revision,Study & Coding,12,False,easy
+355,Solve one previous year question paper,Study & Coding,12,False,easy
+356,Teach a concept to someone (Feynman method),Study & Coding,12,False,easy
+357,Watch one educational video with notes,Study & Coding,12,False,easy
+358,Complete one online course module,Study & Coding,12,False,easy
+359,Prepare for upcoming exam,Study & Coding,12,False,easy
+360,Make a weekly study timetable,Study & Coding,12,False,easy
+361,Clear one doubt with a teacher or peer,Study & Coding,12,False,easy
+362,Write a short summary of what you learned,Study & Coding,12,False,easy
+363,Do a mock test,Study & Coding,12,False,easy
+364,Revise formulas for 10 minutes,Study & Coding,12,False,easy
+365,Practice writing answers by hand for 20 minutes,Study & Coding,12,False,easy
+366,Revise SQL queries,Study & Coding,12,False,easy
+367,Practice 5 SQL queries,Study & Coding,12,False,easy
+368,Read one research paper abstract,Study & Coding,12,False,easy
+369,Read documentation of a tool you use,Study & Coding,12,False,easy
+370,Review your code and refactor one function,Study & Coding,12,False,easy
+371,Write unit tests for one function,Study & Coding,12,False,easy
+372,Fix one bug in your project,Study & Coding,12,False,easy
+373,Commit code to GitHub today,Study & Coding,12,False,easy
+374,Push a meaningful commit with a clear message,Study & Coding,12,False,easy
+375,Write a README for a project,Study & Coding,12,False,easy
+376,Learn one new Git command,Study & Coding,12,False,easy
+377,Learn one new Linux command,Study & Coding,12,False,easy
+378,Practice 10 minutes of typing,Study & Coding,12,False,easy
+379,Learn one new keyboard shortcut,Study & Coding,12,False,easy
+380,Read one engineering blog,Study & Coding,12,False,easy
+381,Watch a system design video,Study & Coding,12,False,easy
+382,Design a database schema for an idea,Study & Coding,12,False,easy
+383,Draw an ER diagram,Study & Coding,12,False,easy
+384,Practice explaining your project in 2 minutes,Study & Coding,12,False,easy
+385,Study one design pattern,Study & Coding,12,False,easy
+386,Learn one new Python library,Study & Coding,12,False,easy
+387,Learn one new JavaScript concept,Study & Coding,12,False,easy
+388,Learn one React hook in depth,Study & Coding,12,False,easy
+389,Build a small API endpoint in Node.js,Study & Coding,12,False,easy
+390,Practice MongoDB queries for 20 minutes,Study & Coding,12,False,easy
+391,Study JWT authentication flow,Study & Coding,12,False,easy
+392,Study OAuth flow,Study & Coding,12,False,easy
+393,Learn one new Java OOP concept,Study & Coding,12,False,easy
+394,Learn one Python trick,Study & Coding,12,False,easy
+395,Debug code without using AI for 30 minutes,Study & Coding,12,False,easy
+396,Write pseudocode before coding,Study & Coding,12,False,easy
+397,Study time and space complexity of one algorithm,Study & Coding,12,False,easy
+398,Read a chapter of a CS book,Study & Coding,12,False,easy
+399,Do 20 minutes of aptitude practice,Study & Coding,12,False,easy
+400,Do 20 minutes of logical reasoning,Study & Coding,12,False,easy
+401,Do 20 minutes of verbal ability,Study & Coding,12,False,easy
+402,Practice 1 puzzle,Study & Coding,12,False,easy
+403,Solve one math problem daily,Study & Coding,12,False,easy
+404,Study with a friend for 1 hour,Study & Coding,12,False,easy
+405,Join a study group session,Study & Coding,12,False,easy
+406,Create mind map of a topic,Study & Coding,12,False,easy
+407,Organize study material in folders,Study & Coding,12,False,easy
+408,Keep your study desk clean,Study & Coding,12,False,easy
+409,Update your resume,Skills & Career,14,False,medium
+410,Update your LinkedIn profile,Skills & Career,14,False,medium
+411,Write a LinkedIn post about your learning,Skills & Career,14,False,medium
+412,Connect with 5 professionals on LinkedIn,Skills & Career,14,False,medium
+413,Message one mentor or senior for guidance,Skills & Career,14,False,medium
+414,Apply to one internship,Skills & Career,14,False,medium
+415,Apply to three internships,Skills & Career,14,False,medium
+416,Apply to one hackathon,Skills & Career,14,False,medium
+417,Participate in a coding contest,Skills & Career,14,False,medium
+418,Practice a mock interview for 30 minutes,Skills & Career,14,False,medium
+419,Practice HR interview answers,Skills & Career,14,False,medium
+420,Prepare a 1-minute self introduction,Skills & Career,14,False,medium
+421,Practice explaining your best project,Skills & Career,14,False,medium
+422,Build one feature in your portfolio website,Skills & Career,14,False,medium
+423,Add a new project to your portfolio,Skills & Career,14,False,medium
+424,Deploy a project online,Skills & Career,14,False,medium
+425,Write a technical blog post,Skills & Career,14,False,medium
+426,Read an industry newsletter,Skills & Career,14,False,medium
+427,Follow one tech news update,Skills & Career,14,False,medium
+428,Contribute to an open-source issue,Skills & Career,14,False,medium
+429,Fix a small open-source bug,Skills & Career,14,False,medium
+430,Review a pull request,Skills & Career,14,False,medium
+431,"Learn a new tool (Docker, Postman, Figma)",Skills & Career,14,False,medium
+432,Learn basics of Docker,Skills & Career,14,False,medium
+433,Learn basics of Kubernetes,Skills & Career,14,False,medium
+434,Learn basics of AWS,Skills & Career,14,False,medium
+435,Learn basics of Firebase,Skills & Career,14,False,medium
+436,Learn basics of TypeScript,Skills & Career,14,False,medium
+437,Learn basics of Next.js,Skills & Career,14,False,medium
+438,Learn basics of Tailwind CSS,Skills & Career,14,False,medium
+439,Learn basics of GraphQL,Skills & Career,14,False,medium
+440,Learn basics of Redis,Skills & Career,14,False,medium
+441,Learn basics of WebSockets,Skills & Career,14,False,medium
+442,Learn basics of REST API design,Skills & Career,14,False,medium
+443,Build a Telegram bot feature,Skills & Career,14,False,medium
+444,Build a WhatsApp bot feature,Skills & Career,14,False,medium
+445,Build a small AI app using an API,Skills & Career,14,False,medium
+446,Learn prompt engineering for 20 minutes,Skills & Career,14,False,medium
+447,Learn basics of vector databases,Skills & Career,14,False,medium
+448,Learn basics of RAG,Skills & Career,14,False,medium
+449,Create a GitHub profile README,Skills & Career,14,False,medium
+450,Keep GitHub contribution streak alive,Skills & Career,14,False,medium
+451,Build a mini-project in one day,Skills & Career,14,False,medium
+452,Finish one tutorial project end-to-end,Skills & Career,14,False,medium
+453,Watch a talk from a tech conference,Skills & Career,14,False,medium
+454,Attend a webinar or workshop,Skills & Career,14,False,medium
+455,Attend a college tech event,Skills & Career,14,False,medium
+456,Network with a classmate on a project idea,Skills & Career,14,False,medium
+457,Write down 3 career goals,Skills & Career,14,False,medium
+458,Research one company you want to join,Skills & Career,14,False,medium
+459,Research one internship role,Skills & Career,14,False,medium
+460,Read one job description and note skills needed,Skills & Career,14,False,medium
+461,Make a skill gap list,Skills & Career,14,False,medium
+462,Learn one soft skill technique,Skills & Career,14,False,medium
+463,Practice public speaking for 5 minutes,Skills & Career,14,False,medium
+464,Record yourself explaining a concept,Skills & Career,14,False,medium
+465,Practice writing professional emails,Skills & Career,14,False,medium
+466,Write one email to a recruiter,Skills & Career,14,False,medium
+467,Follow up on one application,Skills & Career,14,False,medium
+468,Update your project documentation,Skills & Career,14,False,medium
+469,Prepare an elevator pitch for your startup idea,Skills & Career,14,False,medium
+470,Brainstorm one product idea,Skills & Career,14,False,medium
+471,Validate one idea with a friend,Skills & Career,14,False,medium
+472,Sketch a UI wireframe,Skills & Career,14,False,medium
+473,Design a simple logo or banner,Skills & Career,14,False,medium
+474,Learn basic video editing for 20 minutes,Skills & Career,14,False,medium
+475,Learn one Canva or Figma trick,Skills & Career,14,False,medium
+476,Learn one freelancing skill,Skills & Career,14,False,medium
+477,Check one freelance platform for projects,Skills & Career,14,False,medium
+478,Prepare a client proposal draft,Skills & Career,14,False,medium
+479,Learn about one new tech trend,Skills & Career,14,False,medium
+480,Read one case study,Skills & Career,14,False,medium
+481,Create a project roadmap,Skills & Career,14,False,medium
+482,Break a big goal into weekly tasks,Skills & Career,14,False,medium
+483,Do a weekly skill review,Skills & Career,14,False,medium
+484,Teach a junior one concept,Skills & Career,14,False,medium
+485,Join a developer community discussion,Skills & Career,14,False,medium
+486,Answer a question on StackOverflow or Discord,Skills & Career,14,False,medium
+487,Complete one certification module,Skills & Career,14,False,medium
+488,Add a certificate to your profile,Skills & Career,14,False,medium
+489,Take a skill assessment quiz,Skills & Career,14,False,medium
+490,Practice aptitude for placements for 30 minutes,Skills & Career,14,False,medium
+491,Study one core CS interview question,Skills & Career,14,False,medium
+492,Solve one SQL interview question,Skills & Career,14,False,medium
+493,Solve one OOP interview question,Skills & Career,14,False,medium
+494,Solve one OS interview question,Skills & Career,14,False,medium
+495,Solve one DBMS interview question,Skills & Career,14,False,medium
+496,Solve one networking interview question,Skills & Career,14,False,medium
+497,Prepare one behavioural interview story,Skills & Career,14,False,medium
+498,Research salary and role expectations,Skills & Career,14,False,medium
+499,Build a personal brand post,Skills & Career,14,False,medium
+500,Learn how to read a codebase for 20 minutes,Skills & Career,14,False,medium
+501,Read one startup story,Skills & Career,14,False,medium
+502,Write a daily dev log,Skills & Career,14,False,medium
+503,Present your project to a friend,Skills & Career,14,False,medium
+504,Plan your next hackathon idea,Skills & Career,14,False,medium
+505,Refine your project pitch deck,Skills & Career,14,False,medium
+506,Write a daily reflection,Mind & Mindset,8,False,easy
+507,Write 3 things you are grateful for,Mind & Mindset,8,False,easy
+508,Write 3 wins of the day,Mind & Mindset,8,False,easy
+509,Write 1 mistake and the lesson from it,Mind & Mindset,8,False,easy
+510,Journal for 10 minutes,Mind & Mindset,8,False,easy
+511,Read for 20 minutes,Mind & Mindset,8,False,easy
+512,Read for 30 minutes,Mind & Mindset,8,False,easy
+513,Read for 60 minutes,Mind & Mindset,8,False,easy
+514,Read a self-improvement book chapter,Mind & Mindset,8,False,easy
+515,Listen to a podcast with notes,Mind & Mindset,8,False,easy
+516,Practice deep breathing for 5 minutes,Mind & Mindset,8,False,easy
+517,Practice box breathing for 5 minutes,Mind & Mindset,8,False,easy
+518,Practice mindfulness for 10 minutes,Mind & Mindset,8,False,easy
+519,Do a body scan meditation,Mind & Mindset,8,False,easy
+520,Take a mindful walk without phone,Mind & Mindset,8,False,easy
+521,Spend 10 minutes in silence,Mind & Mindset,8,False,easy
+522,Spend time in nature,Mind & Mindset,8,False,easy
+523,Say no to one distraction,Mind & Mindset,8,False,easy
+524,Complete one task you have been avoiding,Mind & Mindset,8,False,easy
+525,Do one thing outside your comfort zone,Mind & Mindset,8,False,easy
+526,Do one act of kindness,Mind & Mindset,8,False,easy
+527,Compliment someone genuinely,Mind & Mindset,8,False,easy
+528,Call a family member,Mind & Mindset,8,False,easy
+529,Call a friend you have not spoken to,Mind & Mindset,8,False,easy
+530,Spend quality time with family,Mind & Mindset,8,False,easy
+531,Forgive someone silently,Mind & Mindset,8,False,easy
+532,Avoid complaining the whole day,Mind & Mindset,8,False,easy
+533,Avoid gossip the whole day,Mind & Mindset,8,False,easy
+534,Avoid negative self-talk,Mind & Mindset,8,False,easy
+535,Replace one negative thought with a positive one,Mind & Mindset,8,False,easy
+536,Read your goals aloud,Mind & Mindset,8,False,easy
+537,Review your vision board,Mind & Mindset,8,False,easy
+538,Create a vision board,Mind & Mindset,8,False,easy
+539,Write a letter to your future self,Mind & Mindset,8,False,easy
+540,Set one intention for the day,Mind & Mindset,8,False,easy
+541,Set weekly goals,Mind & Mindset,8,False,easy
+542,Review monthly progress,Mind & Mindset,8,False,easy
+543,Track your mood in a journal,Mind & Mindset,8,False,easy
+544,Do a digital-free hour,Mind & Mindset,8,False,easy
+545,Take a 10-minute break to rest your mind,Mind & Mindset,8,False,easy
+546,Declutter one small space,Mind & Mindset,8,False,easy
+547,Organize your room for 15 minutes,Mind & Mindset,8,False,easy
+548,Clean your workspace,Mind & Mindset,8,False,easy
+549,Do laundry on time,Mind & Mindset,8,False,easy
+550,Learn one new word,Mind & Mindset,8,False,easy
+551,Learn one new fact,Mind & Mindset,8,False,easy
+552,Practice a hobby for 30 minutes,Mind & Mindset,8,False,easy
+553,Draw or sketch for 15 minutes,Mind & Mindset,8,False,easy
+554,Play a musical instrument for 20 minutes,Mind & Mindset,8,False,easy
+555,Write a poem or short story,Mind & Mindset,8,False,easy
+556,Listen to calming music for 10 minutes,Mind & Mindset,8,False,easy
+557,Avoid comparing yourself with others,Mind & Mindset,8,False,easy
+558,Celebrate a small win,Mind & Mindset,8,False,easy
+559,Reward yourself in a healthy way,Mind & Mindset,8,False,easy
+560,Practice patience in a hard moment,Mind & Mindset,8,False,easy
+561,Practice active listening in one conversation,Mind & Mindset,8,False,easy
+562,Smile at 3 people today,Mind & Mindset,8,False,easy
+563,Thank someone in person,Mind & Mindset,8,False,easy
+564,Accept feedback without defending,Mind & Mindset,8,False,easy
+565,Ask for feedback from someone,Mind & Mindset,8,False,easy
+566,Stay calm in one stressful moment,Mind & Mindset,8,False,easy
+567,Pause for 10 seconds before reacting,Mind & Mindset,8,False,easy
+568,Practice saying no politely,Mind & Mindset,8,False,easy
+569,Do one thing that scares you slightly,Mind & Mindset,8,False,easy
+570,Take 100% ownership of one problem,Mind & Mindset,8,False,easy
+571,Avoid excuses for one full day,Mind & Mindset,8,False,easy
+572,Keep every promise you made today,Mind & Mindset,8,False,easy
+573,Be on time for everything today,Mind & Mindset,8,False,easy
+574,Finish what you start today,Mind & Mindset,8,False,easy
+575,Do the hardest task first,Mind & Mindset,8,False,easy
+576,Complete your 'must do' list,Mind & Mindset,8,False,easy
+577,Say affirmations in the mirror,Mind & Mindset,8,False,easy
+578,Spend 10 minutes thinking about your long-term goals,Mind & Mindset,8,False,easy
+579,Read a biography of a successful person,Mind & Mindset,8,False,easy
+580,Watch a documentary,Mind & Mindset,8,False,easy
+581,Watch one motivational video (max 10 minutes),Mind & Mindset,8,False,easy
+582,Avoid doom-scrolling news,Mind & Mindset,8,False,easy
+583,Stay hydrated and mood-check at noon,Mind & Mindset,8,False,easy
+584,Take a screen-free evening,Mind & Mindset,8,False,easy
+585,Have one meaningful conversation,Mind & Mindset,8,False,easy
+586,Learn something from a senior,Mind & Mindset,8,False,easy
+587,Visit a place of peace or worship,Mind & Mindset,8,False,easy
+588,Write down your fears and one action for each,Mind & Mindset,8,False,easy
+589,Practice gratitude to a teacher,Mind & Mindset,8,False,easy
+590,Help a classmate with a doubt,Mind & Mindset,8,False,easy
+591,Share knowledge with someone,Mind & Mindset,8,False,easy
+592,Reflect on your week in 5 lines,Mind & Mindset,8,False,easy
+593,Plan a small weekly treat,Mind & Mindset,8,False,easy
+594,Disconnect from the internet for 1 hour,Mind & Mindset,8,False,easy
+595,Take a 30-minute social-media-free walk,Mind & Mindset,8,False,easy
+596,Write your top 3 priorities for the week,Mind & Mindset,8,False,easy
+597,Review your habits tracker,Mind & Mindset,8,False,easy
+598,Keep screen time under 2 hours (non-study),Digital Detox,17,True,hard
+599,Keep screen time under 3 hours (non-study),Digital Detox,22,True,hard
+600,Keep screen time under 4 hours (non-study),Digital Detox,27,False,medium
+601,Keep screen time under 5 hours (non-study),Digital Detox,32,False,medium
+602,No Instagram today,Digital Detox,15,True,medium
+603,Limit Instagram to 15 minutes today,Digital Detox,8,False,easy
+604,No YouTube Shorts today,Digital Detox,15,True,medium
+605,Limit YouTube Shorts to 15 minutes today,Digital Detox,8,False,easy
+606,No Facebook today,Digital Detox,15,True,medium
+607,Limit Facebook to 15 minutes today,Digital Detox,8,False,easy
+608,No Snapchat today,Digital Detox,15,True,medium
+609,Limit Snapchat to 15 minutes today,Digital Detox,8,False,easy
+610,No Twitter/X today,Digital Detox,15,True,medium
+611,Limit Twitter/X to 15 minutes today,Digital Detox,8,False,easy
+612,No Reddit today,Digital Detox,15,True,medium
+613,Limit Reddit to 15 minutes today,Digital Detox,8,False,easy
+614,No WhatsApp status today,Digital Detox,15,True,medium
+615,Limit WhatsApp status to 15 minutes today,Digital Detox,8,False,easy
+616,No Netflix today,Digital Detox,15,True,medium
+617,Limit Netflix to 15 minutes today,Digital Detox,8,False,easy
+618,No OTT apps today,Digital Detox,15,True,medium
+619,Limit OTT apps to 15 minutes today,Digital Detox,8,False,easy
+620,No mobile games today,Digital Detox,15,True,medium
+621,Limit mobile games to 15 minutes today,Digital Detox,8,False,easy
+622,Phone in another room for 30 minutes,Digital Detox,9,False,medium
+623,Phone in another room for 60 minutes,Digital Detox,12,True,medium
+624,Phone in another room for 90 minutes,Digital Detox,15,True,medium
+625,Phone in another room for 120 minutes,Digital Detox,18,True,medium
+626,Turn off non-essential notifications,Digital Detox,8,False,easy
+627,Delete one unused app,Digital Detox,8,False,easy
+628,Clear your phone gallery for 10 minutes,Digital Detox,8,False,easy
+629,Unsubscribe from 3 email lists,Digital Detox,8,False,easy
+630,Clean your inbox to zero,Digital Detox,8,False,easy
+631,Organize phone home screen,Digital Detox,8,False,easy
+632,Use grayscale mode for the day,Digital Detox,8,False,easy
+633,Use app timers for social media,Digital Detox,8,False,easy
+634,Charge phone outside the bedroom,Digital Detox,8,False,easy
+635,No phone while eating,Digital Detox,8,False,easy
+636,No phone in the washroom,Digital Detox,8,False,easy
+637,No phone in the first hour,Digital Detox,8,False,easy
+638,No phone in the last hour before bed,Digital Detox,8,False,easy
+639,No scrolling in bed,Digital Detox,8,False,easy
+640,Keep phone on Do Not Disturb during study,Digital Detox,8,False,easy
+641,Mute group chats during study,Digital Detox,8,False,easy
+642,Check messages only 3 times today,Digital Detox,8,False,easy
+643,Reply to messages in a batch,Digital Detox,8,False,easy
+644,Avoid late-night video watching,Digital Detox,8,False,easy
+645,No binge-watching today,Digital Detox,8,False,easy
+646,No gaming today,Digital Detox,8,False,easy
+647,Limit gaming to 30 minutes,Digital Detox,8,False,easy
+648,Watch only planned content,Digital Detox,8,False,easy
+649,Uninstall a distracting app for a week,Digital Detox,8,False,easy
+650,Use website blocker while studying,Digital Detox,8,False,easy
+651,Use a physical alarm clock instead of phone,Digital Detox,8,False,easy
+652,Use a notebook instead of phone notes for 1 day,Digital Detox,8,False,easy
+653,Turn off autoplay on videos,Digital Detox,8,False,easy
+654,Log out of social media accounts for the day,Digital Detox,8,False,easy
+655,Take a full-day digital sabbath on Sunday,Digital Detox,8,False,easy
+656,Spend 1 hour offline with a book,Digital Detox,8,False,easy
+657,Spend 1 hour offline outdoors,Digital Detox,8,False,easy
+658,Backup your important files,Digital Detox,8,False,easy
+659,Clean your laptop desktop and downloads,Digital Detox,8,False,easy
+660,Organize files and folders,Digital Detox,8,False,easy
+661,Update your passwords safely,Digital Detox,8,False,easy
+662,Enable two-factor authentication,Digital Detox,8,False,easy
+663,Review app permissions on phone,Digital Detox,8,False,easy
+664,Check your daily screen-time report,Digital Detox,8,False,easy
+665,Write down your screen time and set a lower goal,Digital Detox,8,False,easy
+666,Plan tomorrow tonight,Productivity,10,False,easy
+667,Write a to-do list with top 3 priorities,Productivity,10,False,easy
+668,Eat the frog: do the hardest task first,Productivity,10,False,easy
+669,Time-block your whole day,Productivity,10,False,easy
+670,Use the 2-minute rule for small tasks,Productivity,10,False,easy
+671,Complete 3 Pomodoros back-to-back,Productivity,10,False,easy
+672,Finish all must-do tasks by 6 PM,Productivity,10,False,easy
+673,Clear your task backlog for 20 minutes,Productivity,10,False,easy
+674,Review your weekly goals,Productivity,10,False,easy
+675,Plan the week on Sunday,Productivity,10,False,easy
+676,Do a weekly review on Sunday,Productivity,10,False,easy
+677,Do a monthly review,Productivity,10,False,easy
+678,Declutter your digital workspace,Productivity,10,False,easy
+679,Declutter your physical workspace,Productivity,10,False,easy
+680,Organize notes in one app,Productivity,10,False,easy
+681,Use a habit tracker,Productivity,10,False,easy
+682,Batch similar tasks together,Productivity,10,False,easy
+683,Set a start and end time for work,Productivity,10,False,easy
+684,Avoid multitasking for 2 hours,Productivity,10,False,easy
+685,Do a 90-minute focus block,Productivity,10,False,easy
+686,Do a 120-minute focus block,Productivity,10,False,easy
+687,Take a 5-minute break after each focus block,Productivity,10,False,easy
+688,Prepare your clothes the night before,Productivity,10,False,easy
+689,Prepare your bag the night before,Productivity,10,False,easy
+690,Keep a daily expense log,Productivity,10,False,easy
+691,Check your calendar in the morning,Productivity,10,False,easy
+692,Add deadlines to your calendar,Productivity,10,False,easy
+693,Break one big task into smaller steps,Productivity,10,False,easy
+694,Delegate or drop one unnecessary task,Productivity,10,False,easy
+695,Say no to one low-value request,Productivity,10,False,easy
+696,Finish one task you postponed,Productivity,10,False,easy
+697,Finish one task 1 day before the deadline,Productivity,10,False,easy
+698,Start the most important task within 10 minutes of sitting,Productivity,10,False,easy
+699,Remove one distraction from your desk,Productivity,10,False,easy
+700,Keep only essential items on your desk,Productivity,10,False,easy
+701,Use a timer for every study session,Productivity,10,False,easy
+702,Set a daily MIT (Most Important Task),Productivity,10,False,easy
+703,Complete your MIT before noon,Productivity,10,False,easy
+704,Write what you completed in a daily log,Productivity,10,False,easy
+705,Spend 10 minutes planning your day,Productivity,10,False,easy
+706,Review the end-of-day checklist,Productivity,10,False,easy
+707,Arrive 10 minutes early to class,Productivity,10,False,easy
+708,Prepare for tomorrow's classes,Productivity,10,False,easy
+709,Set reminders for assignments,Productivity,10,False,easy
+710,Make a list of pending submissions,Productivity,10,False,easy
+711,Track time spent on each task,Productivity,10,False,easy
+712,Identify one time-waster and remove it,Productivity,10,False,easy
+713,Automate one repetitive task,Productivity,10,False,easy
+714,Write a shell or Python script for a boring task,Productivity,10,False,easy
+715,Use keyboard shortcuts for 1 hour,Productivity,10,False,easy
+716,Clean your email inbox,Productivity,10,False,easy
+717,Reply to important emails within 24 hours,Productivity,10,False,easy
+718,Make a to-don't list,Productivity,10,False,easy
+719,Complete a 3-day streak,Productivity,10,False,easy
+720,Complete a 7-day streak,Productivity,10,False,easy
+721,Complete a 14-day streak,Productivity,10,False,easy
+722,Complete a 21-day streak,Productivity,10,False,easy
+723,Complete a 30-day streak,Productivity,10,False,easy
+724,Finish your day with zero pending tasks,Productivity,10,False,easy
+725,Complete all strict tasks today,Productivity,10,False,easy
+726,Complete 80% of tasks today,Productivity,10,False,easy
+727,Complete 100% of tasks today,Productivity,10,False,easy
+728,Beat yesterday's points,Productivity,10,False,easy
+729,Reach 100 points today,Productivity,10,False,easy
+730,Reach 150 points today,Productivity,10,False,easy
+731,Reach 200 points today,Productivity,10,False,easy
+732,Reach 250 points today,Productivity,10,False,easy
+733,Take a rest day with a light routine,Productivity,10,False,easy
+734,Share your progress with an accountability partner,Productivity,10,False,easy
+735,Post your daily update in a group,Productivity,10,False,easy
+736,Track your streak on paper,Productivity,10,False,easy
+737,Write your reason for doing the Winter Arc,Productivity,10,False,easy
+738,Review your Winter Arc goals,Productivity,10,False,easy
+739,Reflect on your biggest distraction,Productivity,10,False,easy
+740,Plan a reward for your next milestone,Productivity,10,False,easy
+741,Meet a weekly target,Productivity,10,False,easy
+742,Reorganize your schedule for better focus,Productivity,10,False,easy
+743,Do one task with full presence,Productivity,10,False,easy
+744,Start work without checking your phone,Productivity,10,False,easy
+745,Finish work and shut down properly,Productivity,10,False,easy
+746,Use a visual planner,Productivity,10,False,easy
+747,Tidy your bag and notebooks,Productivity,10,False,easy
+748,Check pending fees or forms,Productivity,10,False,easy
+749,Renew or update pending documents,Productivity,10,False,easy
+750,Back up your phone,Productivity,10,False,easy
+751,Arrange your study material for tomorrow,Productivity,10,False,easy
+752,Submit one pending task,Productivity,10,False,easy
+753,Reply to a pending message,Productivity,10,False,easy
+754,Clear 5 old notes or files,Productivity,10,False,easy
+755,Make a list of 3 things to stop doing,Productivity,10,False,easy
+756,Use one productivity technique you never tried,Productivity,10,False,easy
+757,Spend 15 minutes on a long-term project,Productivity,10,False,easy
+758,Work on your startup idea for 30 minutes,Productivity,10,False,easy
+759,Track all expenses today,Finance & Life,9,False,easy
+760,No impulse purchase today,Finance & Life,9,False,easy
+761,No online shopping today,Finance & Life,9,False,easy
+762,No food delivery today,Finance & Life,9,False,easy
+763,Save a fixed amount today,Finance & Life,9,False,easy
+764,Save 50 rupees today,Finance & Life,9,False,easy
+765,Save 100 rupees today,Finance & Life,9,False,easy
+766,Review your monthly budget,Finance & Life,9,False,easy
+767,Set a monthly spending limit,Finance & Life,9,False,easy
+768,Check your bank balance,Finance & Life,9,False,easy
+769,Pay pending bills on time,Finance & Life,9,False,easy
+770,Compare prices before buying,Finance & Life,9,False,easy
+771,Cancel one unused subscription,Finance & Life,9,False,easy
+772,Learn one personal finance concept,Finance & Life,9,False,easy
+773,Read about SIP and mutual funds,Finance & Life,9,False,easy
+774,Read about the stock market basics,Finance & Life,9,False,easy
+775,Read about inflation,Finance & Life,9,False,easy
+776,Read about emergency funds,Finance & Life,9,False,easy
+777,Learn how UPI and digital payments stay safe,Finance & Life,9,False,easy
+778,Check for scam and phishing awareness,Finance & Life,9,False,easy
+779,Learn basics of taxes,Finance & Life,9,False,easy
+780,Learn about credit scores,Finance & Life,9,False,easy
+781,Learn about insurance,Finance & Life,9,False,easy
+782,Plan an emergency fund goal,Finance & Life,9,False,easy
+783,Set a financial goal for 3 months,Finance & Life,9,False,easy
+784,Make a list of needs vs wants,Finance & Life,9,False,easy
+785,Sell or donate one unused item,Finance & Life,9,False,easy
+786,Do a 24-hour wait before buying,Finance & Life,9,False,easy
+787,Pack lunch instead of buying,Finance & Life,9,False,easy
+788,Walk instead of taking a ride when possible,Finance & Life,9,False,easy
+789,Cook at home today,Finance & Life,9,False,easy
+790,Plan weekly groceries,Finance & Life,9,False,easy
+791,Do a 'no spend' day,Finance & Life,9,False,easy
+792,Reflect on your biggest expense this week,Finance & Life,9,False,easy
+793,Invest time in a side income idea,Finance & Life,9,False,easy
+794,Research one freelance gig,Finance & Life,9,False,easy
+795,Learn one skill that can earn money,Finance & Life,9,False,easy
+796,Update your expense sheet,Finance & Life,9,False,easy
+797,Clean your wallet and bag,Finance & Life,9,False,easy
+798,Arrange your important documents,Finance & Life,9,False,easy
+799,Make a list of monthly subscriptions,Finance & Life,9,False,easy
+800,Review your phone and data plan,Finance & Life,9,False,easy
+801,Keep a gratitude note about what you own,Finance & Life,9,False,easy
+802,Spend time with family without phone,Finance & Life,9,False,easy
+803,Help someone at home with a chore,Finance & Life,9,False,easy
+804,Cook or help cook a family meal,Finance & Life,9,False,easy
+805,Do the dishes or cleaning at home,Finance & Life,9,False,easy
+806,Wash your own clothes,Finance & Life,9,False,easy
+807,Iron your clothes for the week,Finance & Life,9,False,easy
+808,Clean your room fully,Finance & Life,9,False,easy
+809,Clean your bathroom or share the cleaning,Finance & Life,9,False,easy
+810,Take out the trash on time,Finance & Life,9,False,easy
+811,Fix or repair one small thing,Finance & Life,9,False,easy
+812,Organize your wardrobe,Finance & Life,9,False,easy
+813,Organize your cupboard shelf,Finance & Life,9,False,easy
+814,Water plants or care for a pet,Finance & Life,9,False,easy
+815,Call grandparents or elders,Finance & Life,9,False,easy
+816,Thank your parents,Finance & Life,9,False,easy
+817,Message a friend to check on them,Finance & Life,9,False,easy
+818,Meet a friend in person,Finance & Life,9,False,easy
+819,Attend a family or community event,Finance & Life,9,False,easy
+820,Volunteer for 1 hour,Finance & Life,9,False,easy
+821,Donate to a cause,Finance & Life,9,False,easy
+822,Teach a younger sibling something,Finance & Life,9,False,easy
+823,Help a friend with their studies,Finance & Life,9,False,easy
+824,Write a thank-you note,Finance & Life,9,False,easy
+825,Plan a weekend activity,Finance & Life,9,False,easy
+826,Plan one outdoor activity,Finance & Life,9,False,easy
+827,Visit a library,Finance & Life,9,False,easy
+828,Visit a park,Finance & Life,9,False,easy
+829,"Learn one life skill (cooking, repair, driving)",Finance & Life,9,False,easy
+830,Cook a new dish,Finance & Life,9,False,easy
+831,Learn basic first aid,Finance & Life,9,False,easy
+832,Learn a basic self-defence move,Finance & Life,9,False,easy
+833,Learn a new language word set (5 words),Finance & Life,9,False,easy
+834,Practice English speaking for 15 minutes,Finance & Life,9,False,easy
+835,Practice Hindi or regional-language reading,Finance & Life,9,False,easy
+836,Write a letter by hand,Finance & Life,9,False,easy
+837,Take a photograph for creativity,Finance & Life,9,False,easy
+838,Plan a trip budget,Finance & Life,9,False,easy
+839,Plan a budget-friendly outing,Finance & Life,9,False,easy
+840,Check your daily steps vs goal,Finance & Life,9,False,easy
+841,Do a 10-minute declutter,Finance & Life,9,False,easy
+842,Create a list of 5 things you want to achieve this month,Finance & Life,9,False,easy
+843,Cut your nails and groom properly,Finance & Life,9,False,easy
+844,Maintain personal hygiene routine,Finance & Life,9,False,easy
+845,Iron and prepare formal clothes,Finance & Life,9,False,easy
+846,Polish your shoes,Finance & Life,9,False,easy
+847,Do a skincare routine,Finance & Life,9,False,easy
+848,Keep your bag organized,Finance & Life,9,False,easy
+849,Be punctual for every plan today,Finance & Life,9,False,easy
+850,Avoid unnecessary spending on snacks,Finance & Life,9,False,easy
+851,Use public or shared transport when possible,Finance & Life,9,False,easy
+852,Keep your promises today,Finance & Life,9,False,easy
+853,Say sorry or thank you when needed,Finance & Life,9,False,easy
+854,Be respectful and calm in every talk today,Finance & Life,9,False,easy
+855,Sleep by 9:30 PM,Night & Sleep,30,True,hard
+856,Sleep by 10:00 PM,Night & Sleep,27,True,hard
+857,Sleep by 10:15 PM,Night & Sleep,25,True,hard
+858,Sleep by 10:30 PM,Night & Sleep,22,True,medium
+859,Sleep by 10:45 PM,Night & Sleep,18,False,medium
+860,Sleep by 11:00 PM,Night & Sleep,15,False,medium
+861,Sleep by 11:15 PM,Night & Sleep,12,False,easy
+862,Sleep by 11:30 PM,Night & Sleep,9,False,easy
+863,Sleep at least 6 hours,Night & Sleep,14,False,medium
+864,Sleep at least 7 hours,Night & Sleep,15,True,medium
+865,Sleep at least 8 hours,Night & Sleep,16,True,medium
+866,Sleep at least 9 hours,Night & Sleep,17,True,medium
+867,No screens for 15 minutes before bed,Night & Sleep,8,False,medium
+868,No screens for 30 minutes before bed,Night & Sleep,11,True,medium
+869,No screens for 45 minutes before bed,Night & Sleep,14,True,medium
+870,No screens for 60 minutes before bed,Night & Sleep,17,True,medium
+871,Plan tomorrow's top 3 tasks,Night & Sleep,8,False,easy
+872,Write a 5-line daily reflection,Night & Sleep,8,False,easy
+873,Write 3 gratitude points,Night & Sleep,8,False,easy
+874,Review what you completed today,Night & Sleep,8,False,easy
+875,Mark all tasks in the tracker honestly,Night & Sleep,8,False,easy
+876,Prepare clothes for tomorrow,Night & Sleep,8,False,easy
+877,Pack your bag for tomorrow,Night & Sleep,8,False,easy
+878,Keep phone away from the bed,Night & Sleep,8,False,easy
+879,Set your alarm and place it far away,Night & Sleep,8,False,easy
+880,Dim the lights 1 hour before sleep,Night & Sleep,8,False,easy
+881,Keep the room dark and cool,Night & Sleep,8,False,easy
+882,Read a physical book for 15 minutes,Night & Sleep,8,False,easy
+883,Read a physical book for 30 minutes,Night & Sleep,8,False,easy
+884,Listen to calm music or a sleep story,Night & Sleep,8,False,easy
+885,Do 5 minutes of night stretching,Night & Sleep,8,False,easy
+886,Do a short night meditation,Night & Sleep,8,False,easy
+887,Wash face and do skincare,Night & Sleep,8,False,easy
+888,Brush your teeth before bed,Night & Sleep,8,False,easy
+889,Take a warm shower,Night & Sleep,8,False,easy
+890,Drink warm milk or herbal tea,Night & Sleep,8,False,easy
+891,Avoid heavy food after 9 PM,Night & Sleep,8,False,easy
+892,Avoid arguing or stressful talk at night,Night & Sleep,8,False,easy
+893,Avoid news and social media at night,Night & Sleep,8,False,easy
+894,Tidy your room for 5 minutes,Night & Sleep,8,False,easy
+895,Clean your desk for tomorrow,Night & Sleep,8,False,easy
+896,Keep a notepad near the bed for thoughts,Night & Sleep,8,False,easy
+897,Write down worries and one action,Night & Sleep,8,False,easy
+898,Review your goals for tomorrow,Night & Sleep,8,False,easy
+899,Thank yourself for one thing done today,Night & Sleep,8,False,easy
+900,Forgive and let go of the day,Night & Sleep,8,False,easy
+901,Do a 2-minute visualization of tomorrow,Night & Sleep,8,False,easy
+902,Say your night prayer or gratitude,Night & Sleep,8,False,easy
+903,Keep the same sleep time on weekends,Night & Sleep,8,False,easy
+904,Keep the same wake-up time on weekends,Night & Sleep,8,False,easy
+905,Avoid naps longer than 30 minutes,Night & Sleep,8,False,easy
+906,Take a 20-minute power nap in the afternoon,Night & Sleep,8,False,easy
+907,Charge devices outside the bedroom,Night & Sleep,8,False,easy
+908,Switch to night mode on all devices,Night & Sleep,8,False,easy
+909,Put your phone on Do Not Disturb at night,Night & Sleep,8,False,easy
+910,Lay out tomorrow's workout clothes,Night & Sleep,8,False,easy
+911,Prepare tomorrow's breakfast ingredients,Night & Sleep,8,False,easy
+912,Fill your water bottle for tomorrow,Night & Sleep,8,False,easy
+913,Check tomorrow's class schedule,Night & Sleep,8,False,easy
+914,Check tomorrow's deadlines,Night & Sleep,8,False,easy
+915,Check weather for tomorrow,Night & Sleep,8,False,easy
+916,Update your habit tracker,Night & Sleep,8,False,easy
+917,Close all browser tabs and shut down laptop,Night & Sleep,8,False,easy
+918,Do a final 5-minute tidy,Night & Sleep,8,False,easy
+919,Say 'no' to late-night scrolling,Night & Sleep,8,False,easy
+920,Go to bed without checking messages,Night & Sleep,8,False,easy
+921,Fall asleep without video content,Night & Sleep,8,False,easy
+922,Keep your bed only for sleep,Night & Sleep,8,False,easy
+923,Use a sleep mask or earplugs if needed,Night & Sleep,8,False,easy
+924,Keep a consistent night routine for 7 days,Night & Sleep,8,False,easy
+925,Keep a consistent night routine for 14 days,Night & Sleep,8,False,easy
+926,Keep a consistent night routine for 30 days,Night & Sleep,8,False,easy
+927,Lights out within 30 minutes of getting into bed,Night & Sleep,8,False,easy
+928,Do 10 deep belly breaths in bed,Night & Sleep,8,False,easy
+929,Relax each muscle group from toes to head,Night & Sleep,8,False,easy
+930,Avoid water 30 minutes before bed,Night & Sleep,8,False,easy
+931,Finish your last meal 3 hours before sleep,Night & Sleep,8,False,easy
+932,Write a to-do list to clear your mind,Night & Sleep,8,False,easy
+933,Close the day with a smile,Night & Sleep,8,False,easy
+934,Do 5 minutes of sun salutations,Morning,8,False,easy
+935,Drink water before tea or coffee,Morning,8,False,easy
+936,Do 3 minutes of neck and shoulder rolls,Morning,8,False,easy
+937,Read a quote and note one takeaway,Morning,8,False,easy
+938,Do 10 push-ups right after waking,Morning,8,False,easy
+939,Take a 15-minute walk outside before 8 AM,Morning,8,False,easy
+940,Practice gratitude while brushing teeth,Morning,8,False,easy
+941,Prepare your study desk before breakfast,Morning,8,False,easy
+942,Listen to a calm playlist while getting ready,Morning,8,False,easy
+943,Eat a protein-rich breakfast,Morning,8,False,easy
+944,Avoid checking WhatsApp before your first task,Morning,8,False,easy
+945,Do 5 minutes of skipping,Morning,8,False,easy
+946,Write one sentence about how you feel,Morning,8,False,easy
+947,Plan your meals for the day,Morning,8,False,easy
+948,Tidy your room before leaving,Morning,8,False,easy
+949,Start your first deep-work block by 8 AM,Morning,8,False,easy
+950,Do 2 minutes of box breathing,Morning,8,False,easy
+951,Leave home on time,Morning,8,False,easy
+952,Finish your morning routine in under 60 minutes,Morning,8,False,easy
+953,Keep the same wake-up time all week,Morning,8,False,easy
+954,Avoid ordering food online today,Diet & Health,8,False,easy
+955,Eat only home-cooked food for the whole day,Diet & Health,8,False,easy
+956,Avoid biscuits and packaged cookies,Diet & Health,8,False,easy
+957,Drink a glass of water every 2 hours,Diet & Health,8,False,easy
+958,Have a protein shake or sprouts after workout,Diet & Health,8,False,easy
+959,Replace white rice with millets once today,Diet & Health,8,False,easy
+960,Eat boiled chana or peanuts as a snack,Diet & Health,8,False,easy
+961,Have a bowl of fruit salad,Diet & Health,8,False,easy
+962,Avoid cold drinks for the whole week,Diet & Health,8,False,easy
+963,Sleep 7+ hours to support recovery,Diet & Health,8,False,easy
+964,Check labels of what you eat today,Diet & Health,8,False,easy
+965,Do a posture reset every 45 minutes,Diet & Health,8,False,easy
+966,Avoid skipping any meal,Diet & Health,8,False,easy
+967,Eat a rainbow: 3 coloured vegetables,Diet & Health,8,False,easy
+968,Get a 15-minute walk in sunlight,Diet & Health,8,False,easy
+969,Spend your commute without social media,Digital Detox,8,False,easy
+970,Use airplane mode for 1 hour,Digital Detox,8,False,easy
+971,Replace 30 minutes of scrolling with reading,Digital Detox,8,False,easy
+972,Replace 30 minutes of scrolling with a walk,Digital Detox,8,False,easy
+973,Replace 30 minutes of scrolling with coding,Digital Detox,8,False,easy
+974,Mute all non-family contacts for 3 hours,Digital Detox,8,False,easy
+975,Archive old chats for 10 minutes,Digital Detox,8,False,easy
+976,Remove social apps from the home screen,Digital Detox,8,False,easy
+977,Watch only one episode or video today,Digital Detox,8,False,easy
+978,Avoid checking your phone during conversations,Digital Detox,8,False,easy
+979,Avoid your phone during meals with family,Digital Detox,8,False,easy
+980,Keep your phone face down while studying,Digital Detox,8,False,easy
+981,Disable red-dot badges on apps,Digital Detox,8,False,easy
+982,Use a browser extension to block distractions,Digital Detox,8,False,easy
+983,Keep the TV off for the whole day,Digital Detox,8,False,easy
+984,Avoid late-night coding unless it is a deadline,Night & Sleep,8,False,easy
+985,Switch off WiFi at night,Night & Sleep,8,False,easy
+986,Take 5 slow breaths with eyes closed,Night & Sleep,8,False,easy
+987,Stretch your legs and back before bed,Night & Sleep,8,False,easy
+988,Read 5 pages of fiction before sleep,Night & Sleep,8,False,easy
+989,Avoid heavy workouts within 2 hours of bed,Night & Sleep,8,False,easy
+990,Keep your bedroom clutter-free,Night & Sleep,8,False,easy
+991,Hydrate lightly in the evening,Night & Sleep,8,False,easy
+992,Finish all screen work by 9:30 PM,Night & Sleep,8,False,easy
+993,Review tomorrow's most important task,Night & Sleep,8,False,easy
+994,Build a portfolio case study for one project,Skills & Career,10,False,medium
+995,Learn one new feature of VS Code,Skills & Career,10,False,medium
+996,Write a short bio for your portfolio,Skills & Career,10,False,medium
+997,Practice one coding interview problem on paper,Skills & Career,10,False,medium
+998,Read one page of a philosophy or stoicism book,Mind & Mindset,8,False,easy
+999,Reflect on one thing you can control today,Mind & Mindset,8,False,easy
+1000,Write a 'what went well' list,Mind & Mindset,8,False,easy

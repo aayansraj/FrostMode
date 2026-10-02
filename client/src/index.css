@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #0b1120;
+    --bg-card: rgba(15, 23, 42, 0.75);
+    --bg-card-hover: rgba(30, 41, 59, 0.85);
+    --border-color: rgba(56, 189, 248, 0.2);
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --ice-glow: 0 0 20px rgba(56, 189, 248, 0.35);
+    --frost-blue: #38bdf8;
+    --cyan-glow: #06b6d4;
+  }
+
+  .light {
+    --bg-main: #f1f5f9;
+    --bg-card: rgba(255, 255, 255, 0.9);
+    --bg-card-hover: rgba(241, 245, 249, 1);
+    --border-color: rgba(14, 165, 233, 0.3);
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --ice-glow: 0 0 15px rgba(14, 165, 233, 0.2);
+    --frost-blue: #0284c7;
+    --cyan-glow: #0891b2;
+  }
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-panel:hover {
+  border-color: rgba(56, 189, 248, 0.4);
+}
+
+.ice-border {
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  box-shadow: var(--ice-glow);
+}
+
+.text-ice-gradient {
+  background: linear-gradient(135deg, #e0f2fe 0%, #38bdf8 50%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fef08a 0%, #eab308 50%, #ca8a04 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b1120;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
+
+/* Keyframes for animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.6);
+  }
+}
+
+.animate-ice-pulse {
+  animation: pulseGlow 3s infinite ease-in-out;
+}

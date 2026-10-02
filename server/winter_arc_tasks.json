@@ -1,0 +1,8002 @@
+[
+  {
+    "id": 1,
+    "title": "Wake up by 4:30 AM",
+    "category": "Morning",
+    "points": 35,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 2,
+    "title": "Wake up by 4:45 AM",
+    "category": "Morning",
+    "points": 33,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 3,
+    "title": "Wake up by 5:00 AM",
+    "category": "Morning",
+    "points": 30,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 4,
+    "title": "Wake up by 5:15 AM",
+    "category": "Morning",
+    "points": 28,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "title": "Wake up by 5:30 AM",
+    "category": "Morning",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "title": "Wake up by 5:45 AM",
+    "category": "Morning",
+    "points": 22,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "title": "Wake up by 6:00 AM",
+    "category": "Morning",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "title": "Wake up by 6:15 AM",
+    "category": "Morning",
+    "points": 17,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "title": "Wake up by 6:30 AM",
+    "category": "Morning",
+    "points": 15,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "title": "Wake up by 6:45 AM",
+    "category": "Morning",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "title": "Wake up by 7:00 AM",
+    "category": "Morning",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "title": "Drink 1 glass of water after waking",
+    "category": "Morning",
+    "points": 5,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "title": "Drink 2 glasses of water after waking",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "title": "Drink 3 glasses of water after waking",
+    "category": "Morning",
+    "points": 11,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "title": "Drink 4 glasses of water after waking",
+    "category": "Morning",
+    "points": 14,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "title": "Meditate for 5 minutes",
+    "category": "Morning",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "title": "Meditate for 10 minutes",
+    "category": "Morning",
+    "points": 10,
+    "strict": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "title": "Meditate for 15 minutes",
+    "category": "Morning",
+    "points": 12,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "title": "Meditate for 20 minutes",
+    "category": "Morning",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "title": "Meditate for 30 minutes",
+    "category": "Morning",
+    "points": 20,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "title": "Morning journaling for 5 minutes",
+    "category": "Morning",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "title": "Morning journaling for 10 minutes",
+    "category": "Morning",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "title": "Morning journaling for 15 minutes",
+    "category": "Morning",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "title": "No phone for the first 30 minutes after waking",
+    "category": "Morning",
+    "points": 16,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "title": "No phone for the first 60 minutes after waking",
+    "category": "Morning",
+    "points": 22,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "title": "No phone for the first 90 minutes after waking",
+    "category": "Morning",
+    "points": 28,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "title": "Cold shower for 1 minute",
+    "category": "Morning",
+    "points": 11,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "title": "Cold shower for 2 minutes",
+    "category": "Morning",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "title": "Cold shower for 3 minutes",
+    "category": "Morning",
+    "points": 17,
+    "strict": false,
+    "difficulty": "hard"
+  },
+  {
+    "id": 30,
+    "title": "Cold shower for 5 minutes",
+    "category": "Morning",
+    "points": 23,
+    "strict": false,
+    "difficulty": "hard"
+  },
+  {
+    "id": 31,
+    "title": "Make your bed",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 32,
+    "title": "Brush teeth and tongue-scrape",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 33,
+    "title": "Wash face and apply sunscreen",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 34,
+    "title": "Take 5 deep breaths in sunlight",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 35,
+    "title": "Stretch for 5 minutes",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 36,
+    "title": "Write top 3 goals for today",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 37,
+    "title": "Review today's plan",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 38,
+    "title": "Read daily affirmations aloud",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 39,
+    "title": "Prepare a healthy breakfast",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 40,
+    "title": "Pack your bag the right way",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 41,
+    "title": "Say a prayer or gratitude line",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 42,
+    "title": "Open windows for fresh air",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 43,
+    "title": "Wear clean, planned clothes",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 44,
+    "title": "Eat breakfast before 9 AM",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 45,
+    "title": "Check weather and plan accordingly",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 46,
+    "title": "Do 10 minutes of sunlight exposure",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 47,
+    "title": "Listen to a motivational talk (10 min)",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 48,
+    "title": "Visualize your day for 3 minutes",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 49,
+    "title": "Water your plants",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 50,
+    "title": "Clean your desk before starting",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 51,
+    "title": "Take vitamins/supplements on time",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 52,
+    "title": "Do 20 squats to wake up the body",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 53,
+    "title": "Avoid snoozing the alarm",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 54,
+    "title": "Place phone away from bed overnight",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 55,
+    "title": "Read one page of a book",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 56,
+    "title": "Write one thing you will not skip today",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 57,
+    "title": "Skip news and social feeds in the morning",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 58,
+    "title": "Take a 10-minute morning walk",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 59,
+    "title": "Do a 2-minute plank to start the day",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 60,
+    "title": "Eat soaked almonds or nuts",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 61,
+    "title": "Drink warm lemon water",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 62,
+    "title": "Do a 5-minute room tidy",
+    "category": "Morning",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 63,
+    "title": "Wake up without snooze for 3 days straight",
+    "category": "Morning",
+    "points": 40,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "title": "Complete full morning routine before 8 AM",
+    "category": "Morning",
+    "points": 40,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "title": "Do 25 push-ups",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 66,
+    "title": "Do 50 push-ups",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 67,
+    "title": "Do 100 push-ups",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "title": "Do 150 push-ups",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "title": "Do 50 squats",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 70,
+    "title": "Do 100 squats",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 71,
+    "title": "Do 200 squats",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "title": "Do 300 squats",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "title": "Do 25 sit-ups",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 74,
+    "title": "Do 50 sit-ups",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 75,
+    "title": "Do 100 sit-ups",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 76,
+    "title": "Do 150 sit-ups",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 77,
+    "title": "Do 5 pull-ups",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 78,
+    "title": "Do 10 pull-ups",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 79,
+    "title": "Do 20 pull-ups",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 80,
+    "title": "Do 30 pull-ups",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 81,
+    "title": "Do 10 burpees",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 82,
+    "title": "Do 25 burpees",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 83,
+    "title": "Do 50 burpees",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 84,
+    "title": "Do 100 burpees",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 85,
+    "title": "Do 20 lunges",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 86,
+    "title": "Do 40 lunges",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 87,
+    "title": "Do 80 lunges",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 88,
+    "title": "Do 120 lunges",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 89,
+    "title": "Do 50 jumping jacks",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 90,
+    "title": "Do 100 jumping jacks",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 91,
+    "title": "Do 200 jumping jacks",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 92,
+    "title": "Do 300 jumping jacks",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 93,
+    "title": "Do 10 dips",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 94,
+    "title": "Do 20 dips",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 95,
+    "title": "Do 40 dips",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 96,
+    "title": "Do 60 dips",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 97,
+    "title": "Do 30 mountain climbers",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 98,
+    "title": "Do 60 mountain climbers",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 99,
+    "title": "Do 100 mountain climbers",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 100,
+    "title": "Do 150 mountain climbers",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 101,
+    "title": "Do 30 crunches",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 102,
+    "title": "Do 60 crunches",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "title": "Do 100 crunches",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 104,
+    "title": "Do 150 crunches",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 105,
+    "title": "Do 100 skipping rope jumps",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 106,
+    "title": "Do 300 skipping rope jumps",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 107,
+    "title": "Do 500 skipping rope jumps",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 108,
+    "title": "Do 1000 skipping rope jumps",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 109,
+    "title": "Do 15 leg raises",
+    "category": "Fitness",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 110,
+    "title": "Do 30 leg raises",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 111,
+    "title": "Do 50 leg raises",
+    "category": "Fitness",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 112,
+    "title": "Do 80 leg raises",
+    "category": "Fitness",
+    "points": 29,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 113,
+    "title": "Plank for 1 minute",
+    "category": "Fitness",
+    "points": 10,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 114,
+    "title": "Plank for 2 minutes",
+    "category": "Fitness",
+    "points": 17,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 115,
+    "title": "Plank for 3 minutes",
+    "category": "Fitness",
+    "points": 24,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 116,
+    "title": "Plank for 5 minutes",
+    "category": "Fitness",
+    "points": 31,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 117,
+    "title": "Wall sit for 1 minute",
+    "category": "Fitness",
+    "points": 10,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 118,
+    "title": "Wall sit for 2 minutes",
+    "category": "Fitness",
+    "points": 17,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "title": "Wall sit for 3 minutes",
+    "category": "Fitness",
+    "points": 24,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 120,
+    "title": "Dead hang for 30 seconds",
+    "category": "Fitness",
+    "points": 10,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 121,
+    "title": "Dead hang for 60 seconds",
+    "category": "Fitness",
+    "points": 17,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 122,
+    "title": "Dead hang for 90 seconds",
+    "category": "Fitness",
+    "points": 24,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 123,
+    "title": "Run 1 km",
+    "category": "Fitness",
+    "points": 14,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 124,
+    "title": "Run 2 km",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 125,
+    "title": "Run 3 km",
+    "category": "Fitness",
+    "points": 22,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 126,
+    "title": "Run 5 km",
+    "category": "Fitness",
+    "points": 30,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 127,
+    "title": "Run 8 km",
+    "category": "Fitness",
+    "points": 42,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 128,
+    "title": "Run 10 km",
+    "category": "Fitness",
+    "points": 50,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 129,
+    "title": "Run 15 km",
+    "category": "Fitness",
+    "points": 70,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 130,
+    "title": "Walk 3,000 steps",
+    "category": "Fitness",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 131,
+    "title": "Walk 5,000 steps",
+    "category": "Fitness",
+    "points": 13,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 132,
+    "title": "Walk 8,000 steps",
+    "category": "Fitness",
+    "points": 19,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 133,
+    "title": "Walk 10,000 steps",
+    "category": "Fitness",
+    "points": 23,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 134,
+    "title": "Walk 12,000 steps",
+    "category": "Fitness",
+    "points": 27,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "title": "Walk 15,000 steps",
+    "category": "Fitness",
+    "points": 33,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 136,
+    "title": "Cycle for 15 minutes",
+    "category": "Fitness",
+    "points": 13,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 137,
+    "title": "Cycle for 30 minutes",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 138,
+    "title": "Cycle for 45 minutes",
+    "category": "Fitness",
+    "points": 23,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 139,
+    "title": "Cycle for 60 minutes",
+    "category": "Fitness",
+    "points": 28,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 140,
+    "title": "Swim for 15 minutes",
+    "category": "Fitness",
+    "points": 17,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 141,
+    "title": "Swim for 30 minutes",
+    "category": "Fitness",
+    "points": 25,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 142,
+    "title": "Swim for 45 minutes",
+    "category": "Fitness",
+    "points": 32,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 143,
+    "title": "Yoga for 10 minutes",
+    "category": "Fitness",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 144,
+    "title": "Yoga for 20 minutes",
+    "category": "Fitness",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 145,
+    "title": "Yoga for 30 minutes",
+    "category": "Fitness",
+    "points": 16,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 146,
+    "title": "Yoga for 45 minutes",
+    "category": "Fitness",
+    "points": 21,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 147,
+    "title": "Yoga for 60 minutes",
+    "category": "Fitness",
+    "points": 26,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 148,
+    "title": "Do 5 rounds of Surya Namaskar",
+    "category": "Fitness",
+    "points": 13,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "title": "Do 12 rounds of Surya Namaskar",
+    "category": "Fitness",
+    "points": 20,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "title": "Do 24 rounds of Surya Namaskar",
+    "category": "Fitness",
+    "points": 32,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 151,
+    "title": "Gym or home workout for 15 minutes",
+    "category": "Fitness",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 152,
+    "title": "Gym or home workout for 20 minutes",
+    "category": "Fitness",
+    "points": 16,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 153,
+    "title": "Gym or home workout for 30 minutes",
+    "category": "Fitness",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 154,
+    "title": "Gym or home workout for 45 minutes",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 155,
+    "title": "Gym or home workout for 60 minutes",
+    "category": "Fitness",
+    "points": 30,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 156,
+    "title": "Gym or home workout for 75 minutes",
+    "category": "Fitness",
+    "points": 35,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 157,
+    "title": "Gym or home workout for 90 minutes",
+    "category": "Fitness",
+    "points": 40,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 158,
+    "title": "Complete Chest day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 159,
+    "title": "Complete Back day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 160,
+    "title": "Complete Leg day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 161,
+    "title": "Complete Shoulder day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 162,
+    "title": "Complete Arms day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 163,
+    "title": "Complete Core day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 164,
+    "title": "Complete Full body day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 165,
+    "title": "Complete Cardio day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 166,
+    "title": "Complete Mobility day workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 167,
+    "title": "Complete HIIT 20 minutes workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 168,
+    "title": "Complete Tabata 4 minutes workout",
+    "category": "Fitness",
+    "points": 25,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 169,
+    "title": "Play badminton for 30 minutes",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 170,
+    "title": "Play cricket for 30 minutes",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 171,
+    "title": "Play football for 30 minutes",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 172,
+    "title": "Play basketball for 30 minutes",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 173,
+    "title": "Play table tennis for 30 minutes",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 174,
+    "title": "Play volleyball for 30 minutes",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 175,
+    "title": "Play tennis for 30 minutes",
+    "category": "Fitness",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 176,
+    "title": "Take the stairs instead of the lift",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 177,
+    "title": "Warm up 5 minutes before workout",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 178,
+    "title": "Cool down and stretch after workout",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 179,
+    "title": "Log your workout in a notebook",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 180,
+    "title": "Beat yesterday's reps in one exercise",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 181,
+    "title": "Foam roll for 5 minutes",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 182,
+    "title": "Fix your posture checks 5 times today",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 183,
+    "title": "Stand and walk 5 minutes every hour",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 184,
+    "title": "Record your weight and measurements",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 185,
+    "title": "Do 10 minutes of core only",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 186,
+    "title": "Try a new exercise today",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 187,
+    "title": "Do neck and shoulder mobility",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 188,
+    "title": "Do hip mobility for 5 minutes",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 189,
+    "title": "Walk after dinner for 15 minutes",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 190,
+    "title": "Do 5 minutes of balance practice",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 191,
+    "title": "Train with proper form video review",
+    "category": "Fitness",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 192,
+    "title": "Drink 1 litres of water today",
+    "category": "Diet & Health",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 193,
+    "title": "Drink 2 litres of water today",
+    "category": "Diet & Health",
+    "points": 13,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 194,
+    "title": "Drink 3 litres of water today",
+    "category": "Diet & Health",
+    "points": 17,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 195,
+    "title": "Drink 4 litres of water today",
+    "category": "Diet & Health",
+    "points": 21,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 196,
+    "title": "Eat 60 g of protein",
+    "category": "Diet & Health",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 197,
+    "title": "Eat 80 g of protein",
+    "category": "Diet & Health",
+    "points": 16,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 198,
+    "title": "Eat 100 g of protein",
+    "category": "Diet & Health",
+    "points": 18,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 199,
+    "title": "Eat 120 g of protein",
+    "category": "Diet & Health",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 200,
+    "title": "No junk food today",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": 201,
+    "title": "No sugary drinks today",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": 202,
+    "title": "No fried food today",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": 203,
+    "title": "No packed snacks today",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": 204,
+    "title": "No outside food today",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": 205,
+    "title": "No sweets or desserts today",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": 206,
+    "title": "No late-night snacking",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 207,
+    "title": "No soft drinks",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 208,
+    "title": "No energy drinks",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 209,
+    "title": "No chips or namkeen",
+    "category": "Diet & Health",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 210,
+    "title": "Skip added sugar in tea or coffee",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 211,
+    "title": "Limit tea or coffee to 2 cups",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 212,
+    "title": "Eat dinner before 8:30 PM",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 213,
+    "title": "Eat slowly and chew properly",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 214,
+    "title": "Eat without phone or TV",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 215,
+    "title": "Eat a balanced home-cooked meal",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 216,
+    "title": "Eat a salad with lunch",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 217,
+    "title": "Eat one fruit",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 218,
+    "title": "Eat two fruits",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 219,
+    "title": "Eat three servings of vegetables",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 220,
+    "title": "Eat green leafy vegetables",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 221,
+    "title": "Eat sprouts or dal",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 222,
+    "title": "Eat curd or buttermilk",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 223,
+    "title": "Eat a handful of nuts",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 224,
+    "title": "Eat eggs or paneer for protein",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 225,
+    "title": "Prepare meals at home",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 226,
+    "title": "Plan tomorrow's meals",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 227,
+    "title": "Prepare a healthy grocery list",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 228,
+    "title": "Take multivitamin or prescribed supplements",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 229,
+    "title": "Eat breakfast within 1 hour of waking",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 230,
+    "title": "Avoid overeating at any meal",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 231,
+    "title": "Stop eating when 80% full",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 232,
+    "title": "Drink water before every meal",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 233,
+    "title": "Avoid refined flour (maida) today",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 234,
+    "title": "Avoid deep-fried street food",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 235,
+    "title": "Try intermittent fasting window (12 hours)",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 236,
+    "title": "Try intermittent fasting window (14 hours)",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 237,
+    "title": "Try intermittent fasting window (16 hours)",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 238,
+    "title": "Track your calories in an app",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 239,
+    "title": "Track your water intake",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 240,
+    "title": "Eat seasonal fruits",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 241,
+    "title": "Include fibre in every meal",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 242,
+    "title": "Replace one snack with fruit or nuts",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 243,
+    "title": "Cook a new healthy recipe",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 244,
+    "title": "Wash hands before meals",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 245,
+    "title": "Brush teeth twice",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 246,
+    "title": "Floss your teeth",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 247,
+    "title": "Get 10 minutes of sunlight",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 248,
+    "title": "Take an eye break every 20 minutes (20-20-20)",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 249,
+    "title": "Check your posture while sitting",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 250,
+    "title": "Do 5 minutes of deep breathing",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 251,
+    "title": "Take a proper lunch break away from screen",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 252,
+    "title": "Get a health check-up when due",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 253,
+    "title": "Take a full day without alcohol or smoking",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 254,
+    "title": "Avoid vaping or tobacco completely",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 255,
+    "title": "Drink herbal tea instead of sugary tea",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 256,
+    "title": "Eat a light dinner",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 257,
+    "title": "Avoid caffeine after 4 PM",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 258,
+    "title": "Limit salt intake today",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 259,
+    "title": "Wear sunscreen outdoors",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 260,
+    "title": "Keep a clean water bottle with you",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 261,
+    "title": "Wash fruits and vegetables properly",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 262,
+    "title": "Weigh yourself once this week",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 263,
+    "title": "Stretch your back after long sitting",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 264,
+    "title": "Take a 5-minute walk after each meal",
+    "category": "Diet & Health",
+    "points": 6,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 265,
+    "title": "Deep study for 1 hour (no phone)",
+    "category": "Study & Coding",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 266,
+    "title": "Deep study for 2 hours (no phone)",
+    "category": "Study & Coding",
+    "points": 26,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 267,
+    "title": "Deep study for 3 hours (no phone)",
+    "category": "Study & Coding",
+    "points": 34,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 268,
+    "title": "Deep study for 4 hours (no phone)",
+    "category": "Study & Coding",
+    "points": 42,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 269,
+    "title": "Deep study for 5 hours (no phone)",
+    "category": "Study & Coding",
+    "points": 50,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 270,
+    "title": "Deep study for 6 hours (no phone)",
+    "category": "Study & Coding",
+    "points": 58,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 271,
+    "title": "Solve 1 LeetCode problem",
+    "category": "Study & Coding",
+    "points": 14,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 272,
+    "title": "Solve 2 LeetCode problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": true,
+    "difficulty": "easy"
+  },
+  {
+    "id": 273,
+    "title": "Solve 3 LeetCode problems",
+    "category": "Study & Coding",
+    "points": 26,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 274,
+    "title": "Solve 5 LeetCode problems",
+    "category": "Study & Coding",
+    "points": 38,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 275,
+    "title": "Solve 7 LeetCode problems",
+    "category": "Study & Coding",
+    "points": 50,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 276,
+    "title": "Solve 10 LeetCode problems",
+    "category": "Study & Coding",
+    "points": 68,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 277,
+    "title": "Solve 1 DSA problem on GeeksforGeeks",
+    "category": "Study & Coding",
+    "points": 13,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 278,
+    "title": "Solve 2 DSA problems on GeeksforGeeks",
+    "category": "Study & Coding",
+    "points": 18,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 279,
+    "title": "Solve 3 DSA problems on GeeksforGeeks",
+    "category": "Study & Coding",
+    "points": 23,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 280,
+    "title": "Solve 5 DSA problems on GeeksforGeeks",
+    "category": "Study & Coding",
+    "points": 33,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 281,
+    "title": "Solve 1 Codeforces or CodeChef problem",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "hard"
+  },
+  {
+    "id": 282,
+    "title": "Solve 2 Codeforces or CodeChef problems",
+    "category": "Study & Coding",
+    "points": 28,
+    "strict": false,
+    "difficulty": "hard"
+  },
+  {
+    "id": 283,
+    "title": "Solve 3 Codeforces or CodeChef problems",
+    "category": "Study & Coding",
+    "points": 36,
+    "strict": false,
+    "difficulty": "hard"
+  },
+  {
+    "id": 284,
+    "title": "Read 10 pages of a textbook",
+    "category": "Study & Coding",
+    "points": 7,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 285,
+    "title": "Read 20 pages of a textbook",
+    "category": "Study & Coding",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 286,
+    "title": "Read 30 pages of a textbook",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 287,
+    "title": "Read 50 pages of a textbook",
+    "category": "Study & Coding",
+    "points": 17,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 288,
+    "title": "Code on a personal project for 30 minutes",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 289,
+    "title": "Code on a personal project for 60 minutes",
+    "category": "Study & Coding",
+    "points": 23,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 290,
+    "title": "Code on a personal project for 90 minutes",
+    "category": "Study & Coding",
+    "points": 30,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 291,
+    "title": "Code on a personal project for 120 minutes",
+    "category": "Study & Coding",
+    "points": 38,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 292,
+    "title": "Complete 1 Pomodoro session",
+    "category": "Study & Coding",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 293,
+    "title": "Complete 2 Pomodoro sessions",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 294,
+    "title": "Complete 3 Pomodoro sessions",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 295,
+    "title": "Complete 4 Pomodoro sessions",
+    "category": "Study & Coding",
+    "points": 25,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 296,
+    "title": "Study Arrays and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 297,
+    "title": "Study Strings and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 298,
+    "title": "Study Linked lists and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 299,
+    "title": "Study Stacks and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 300,
+    "title": "Study Queues and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 301,
+    "title": "Study Trees and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 302,
+    "title": "Study Binary search trees and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 303,
+    "title": "Study Heaps and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 304,
+    "title": "Study Graphs and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 305,
+    "title": "Study Hashing and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 306,
+    "title": "Study Recursion and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 307,
+    "title": "Study Backtracking and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 308,
+    "title": "Study Dynamic programming and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 309,
+    "title": "Study Greedy algorithms and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 310,
+    "title": "Study Sorting algorithms and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 311,
+    "title": "Study Binary search and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 312,
+    "title": "Study Sliding window and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 313,
+    "title": "Study Two pointers and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 314,
+    "title": "Study Bit manipulation and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 315,
+    "title": "Study Tries and solve 2 problems",
+    "category": "Study & Coding",
+    "points": 20,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 316,
+    "title": "Revise one chapter of Operating Systems",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 317,
+    "title": "Solve 10 MCQs of Operating Systems",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 318,
+    "title": "Revise one chapter of DBMS",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 319,
+    "title": "Solve 10 MCQs of DBMS",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 320,
+    "title": "Revise one chapter of Computer Networks",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 321,
+    "title": "Solve 10 MCQs of Computer Networks",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 322,
+    "title": "Revise one chapter of OOP concepts",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 323,
+    "title": "Solve 10 MCQs of OOP concepts",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 324,
+    "title": "Revise one chapter of Data Structures",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 325,
+    "title": "Solve 10 MCQs of Data Structures",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 326,
+    "title": "Revise one chapter of Algorithms",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 327,
+    "title": "Solve 10 MCQs of Algorithms",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 328,
+    "title": "Revise one chapter of Software Engineering",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 329,
+    "title": "Solve 10 MCQs of Software Engineering",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 330,
+    "title": "Revise one chapter of Computer Organization",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 331,
+    "title": "Solve 10 MCQs of Computer Organization",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 332,
+    "title": "Revise one chapter of Discrete Mathematics",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 333,
+    "title": "Solve 10 MCQs of Discrete Mathematics",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 334,
+    "title": "Revise one chapter of Theory of Computation",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 335,
+    "title": "Solve 10 MCQs of Theory of Computation",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 336,
+    "title": "Revise one chapter of Compiler Design",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 337,
+    "title": "Solve 10 MCQs of Compiler Design",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 338,
+    "title": "Revise one chapter of Web Technologies",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 339,
+    "title": "Solve 10 MCQs of Web Technologies",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 340,
+    "title": "Revise one chapter of Machine Learning",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 341,
+    "title": "Solve 10 MCQs of Machine Learning",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 342,
+    "title": "Revise one chapter of Artificial Intelligence",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 343,
+    "title": "Solve 10 MCQs of Artificial Intelligence",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 344,
+    "title": "Revise one chapter of Cloud Computing",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 345,
+    "title": "Solve 10 MCQs of Cloud Computing",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 346,
+    "title": "Revise one chapter of Cyber Security",
+    "category": "Study & Coding",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 347,
+    "title": "Solve 10 MCQs of Cyber Security",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 348,
+    "title": "Complete pending assignment",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 349,
+    "title": "Submit assignment before deadline",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 350,
+    "title": "Attend all classes today",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 351,
+    "title": "Take handwritten notes in class",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 352,
+    "title": "Revise today's lecture notes",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 353,
+    "title": "Review notes before sleeping",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 354,
+    "title": "Make flashcards for revision",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 355,
+    "title": "Solve one previous year question paper",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 356,
+    "title": "Teach a concept to someone (Feynman method)",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 357,
+    "title": "Watch one educational video with notes",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 358,
+    "title": "Complete one online course module",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 359,
+    "title": "Prepare for upcoming exam",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 360,
+    "title": "Make a weekly study timetable",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 361,
+    "title": "Clear one doubt with a teacher or peer",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 362,
+    "title": "Write a short summary of what you learned",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 363,
+    "title": "Do a mock test",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 364,
+    "title": "Revise formulas for 10 minutes",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 365,
+    "title": "Practice writing answers by hand for 20 minutes",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 366,
+    "title": "Revise SQL queries",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 367,
+    "title": "Practice 5 SQL queries",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 368,
+    "title": "Read one research paper abstract",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 369,
+    "title": "Read documentation of a tool you use",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 370,
+    "title": "Review your code and refactor one function",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 371,
+    "title": "Write unit tests for one function",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 372,
+    "title": "Fix one bug in your project",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 373,
+    "title": "Commit code to GitHub today",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 374,
+    "title": "Push a meaningful commit with a clear message",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 375,
+    "title": "Write a README for a project",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 376,
+    "title": "Learn one new Git command",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 377,
+    "title": "Learn one new Linux command",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 378,
+    "title": "Practice 10 minutes of typing",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 379,
+    "title": "Learn one new keyboard shortcut",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 380,
+    "title": "Read one engineering blog",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 381,
+    "title": "Watch a system design video",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 382,
+    "title": "Design a database schema for an idea",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 383,
+    "title": "Draw an ER diagram",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 384,
+    "title": "Practice explaining your project in 2 minutes",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 385,
+    "title": "Study one design pattern",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 386,
+    "title": "Learn one new Python library",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 387,
+    "title": "Learn one new JavaScript concept",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 388,
+    "title": "Learn one React hook in depth",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 389,
+    "title": "Build a small API endpoint in Node.js",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 390,
+    "title": "Practice MongoDB queries for 20 minutes",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 391,
+    "title": "Study JWT authentication flow",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 392,
+    "title": "Study OAuth flow",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 393,
+    "title": "Learn one new Java OOP concept",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 394,
+    "title": "Learn one Python trick",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 395,
+    "title": "Debug code without using AI for 30 minutes",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 396,
+    "title": "Write pseudocode before coding",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 397,
+    "title": "Study time and space complexity of one algorithm",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 398,
+    "title": "Read a chapter of a CS book",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 399,
+    "title": "Do 20 minutes of aptitude practice",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 400,
+    "title": "Do 20 minutes of logical reasoning",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 401,
+    "title": "Do 20 minutes of verbal ability",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 402,
+    "title": "Practice 1 puzzle",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 403,
+    "title": "Solve one math problem daily",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 404,
+    "title": "Study with a friend for 1 hour",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 405,
+    "title": "Join a study group session",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 406,
+    "title": "Create mind map of a topic",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 407,
+    "title": "Organize study material in folders",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 408,
+    "title": "Keep your study desk clean",
+    "category": "Study & Coding",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 409,
+    "title": "Update your resume",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 410,
+    "title": "Update your LinkedIn profile",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 411,
+    "title": "Write a LinkedIn post about your learning",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 412,
+    "title": "Connect with 5 professionals on LinkedIn",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 413,
+    "title": "Message one mentor or senior for guidance",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 414,
+    "title": "Apply to one internship",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 415,
+    "title": "Apply to three internships",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 416,
+    "title": "Apply to one hackathon",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 417,
+    "title": "Participate in a coding contest",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 418,
+    "title": "Practice a mock interview for 30 minutes",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 419,
+    "title": "Practice HR interview answers",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 420,
+    "title": "Prepare a 1-minute self introduction",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 421,
+    "title": "Practice explaining your best project",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 422,
+    "title": "Build one feature in your portfolio website",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 423,
+    "title": "Add a new project to your portfolio",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 424,
+    "title": "Deploy a project online",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 425,
+    "title": "Write a technical blog post",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 426,
+    "title": "Read an industry newsletter",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 427,
+    "title": "Follow one tech news update",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 428,
+    "title": "Contribute to an open-source issue",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 429,
+    "title": "Fix a small open-source bug",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 430,
+    "title": "Review a pull request",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 431,
+    "title": "Learn a new tool (Docker, Postman, Figma)",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 432,
+    "title": "Learn basics of Docker",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 433,
+    "title": "Learn basics of Kubernetes",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 434,
+    "title": "Learn basics of AWS",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 435,
+    "title": "Learn basics of Firebase",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 436,
+    "title": "Learn basics of TypeScript",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 437,
+    "title": "Learn basics of Next.js",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 438,
+    "title": "Learn basics of Tailwind CSS",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 439,
+    "title": "Learn basics of GraphQL",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 440,
+    "title": "Learn basics of Redis",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 441,
+    "title": "Learn basics of WebSockets",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 442,
+    "title": "Learn basics of REST API design",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 443,
+    "title": "Build a Telegram bot feature",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 444,
+    "title": "Build a WhatsApp bot feature",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 445,
+    "title": "Build a small AI app using an API",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 446,
+    "title": "Learn prompt engineering for 20 minutes",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 447,
+    "title": "Learn basics of vector databases",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 448,
+    "title": "Learn basics of RAG",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 449,
+    "title": "Create a GitHub profile README",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 450,
+    "title": "Keep GitHub contribution streak alive",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 451,
+    "title": "Build a mini-project in one day",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 452,
+    "title": "Finish one tutorial project end-to-end",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 453,
+    "title": "Watch a talk from a tech conference",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 454,
+    "title": "Attend a webinar or workshop",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 455,
+    "title": "Attend a college tech event",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 456,
+    "title": "Network with a classmate on a project idea",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 457,
+    "title": "Write down 3 career goals",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 458,
+    "title": "Research one company you want to join",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 459,
+    "title": "Research one internship role",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 460,
+    "title": "Read one job description and note skills needed",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 461,
+    "title": "Make a skill gap list",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 462,
+    "title": "Learn one soft skill technique",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 463,
+    "title": "Practice public speaking for 5 minutes",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 464,
+    "title": "Record yourself explaining a concept",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 465,
+    "title": "Practice writing professional emails",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 466,
+    "title": "Write one email to a recruiter",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 467,
+    "title": "Follow up on one application",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 468,
+    "title": "Update your project documentation",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 469,
+    "title": "Prepare an elevator pitch for your startup idea",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 470,
+    "title": "Brainstorm one product idea",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 471,
+    "title": "Validate one idea with a friend",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 472,
+    "title": "Sketch a UI wireframe",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 473,
+    "title": "Design a simple logo or banner",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 474,
+    "title": "Learn basic video editing for 20 minutes",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 475,
+    "title": "Learn one Canva or Figma trick",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 476,
+    "title": "Learn one freelancing skill",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 477,
+    "title": "Check one freelance platform for projects",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 478,
+    "title": "Prepare a client proposal draft",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 479,
+    "title": "Learn about one new tech trend",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 480,
+    "title": "Read one case study",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 481,
+    "title": "Create a project roadmap",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 482,
+    "title": "Break a big goal into weekly tasks",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 483,
+    "title": "Do a weekly skill review",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 484,
+    "title": "Teach a junior one concept",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 485,
+    "title": "Join a developer community discussion",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 486,
+    "title": "Answer a question on StackOverflow or Discord",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 487,
+    "title": "Complete one certification module",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 488,
+    "title": "Add a certificate to your profile",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 489,
+    "title": "Take a skill assessment quiz",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 490,
+    "title": "Practice aptitude for placements for 30 minutes",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 491,
+    "title": "Study one core CS interview question",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 492,
+    "title": "Solve one SQL interview question",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 493,
+    "title": "Solve one OOP interview question",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 494,
+    "title": "Solve one OS interview question",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 495,
+    "title": "Solve one DBMS interview question",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 496,
+    "title": "Solve one networking interview question",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 497,
+    "title": "Prepare one behavioural interview story",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 498,
+    "title": "Research salary and role expectations",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 499,
+    "title": "Build a personal brand post",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 500,
+    "title": "Learn how to read a codebase for 20 minutes",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 501,
+    "title": "Read one startup story",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 502,
+    "title": "Write a daily dev log",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 503,
+    "title": "Present your project to a friend",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 504,
+    "title": "Plan your next hackathon idea",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 505,
+    "title": "Refine your project pitch deck",
+    "category": "Skills & Career",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 506,
+    "title": "Write a daily reflection",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 507,
+    "title": "Write 3 things you are grateful for",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 508,
+    "title": "Write 3 wins of the day",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 509,
+    "title": "Write 1 mistake and the lesson from it",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 510,
+    "title": "Journal for 10 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 511,
+    "title": "Read for 20 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 512,
+    "title": "Read for 30 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 513,
+    "title": "Read for 60 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 514,
+    "title": "Read a self-improvement book chapter",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 515,
+    "title": "Listen to a podcast with notes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 516,
+    "title": "Practice deep breathing for 5 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 517,
+    "title": "Practice box breathing for 5 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 518,
+    "title": "Practice mindfulness for 10 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 519,
+    "title": "Do a body scan meditation",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 520,
+    "title": "Take a mindful walk without phone",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 521,
+    "title": "Spend 10 minutes in silence",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 522,
+    "title": "Spend time in nature",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 523,
+    "title": "Say no to one distraction",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 524,
+    "title": "Complete one task you have been avoiding",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 525,
+    "title": "Do one thing outside your comfort zone",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 526,
+    "title": "Do one act of kindness",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 527,
+    "title": "Compliment someone genuinely",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 528,
+    "title": "Call a family member",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 529,
+    "title": "Call a friend you have not spoken to",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 530,
+    "title": "Spend quality time with family",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 531,
+    "title": "Forgive someone silently",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 532,
+    "title": "Avoid complaining the whole day",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 533,
+    "title": "Avoid gossip the whole day",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 534,
+    "title": "Avoid negative self-talk",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 535,
+    "title": "Replace one negative thought with a positive one",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 536,
+    "title": "Read your goals aloud",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 537,
+    "title": "Review your vision board",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 538,
+    "title": "Create a vision board",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 539,
+    "title": "Write a letter to your future self",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 540,
+    "title": "Set one intention for the day",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 541,
+    "title": "Set weekly goals",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 542,
+    "title": "Review monthly progress",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 543,
+    "title": "Track your mood in a journal",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 544,
+    "title": "Do a digital-free hour",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 545,
+    "title": "Take a 10-minute break to rest your mind",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 546,
+    "title": "Declutter one small space",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 547,
+    "title": "Organize your room for 15 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 548,
+    "title": "Clean your workspace",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 549,
+    "title": "Do laundry on time",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 550,
+    "title": "Learn one new word",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 551,
+    "title": "Learn one new fact",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 552,
+    "title": "Practice a hobby for 30 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 553,
+    "title": "Draw or sketch for 15 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 554,
+    "title": "Play a musical instrument for 20 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 555,
+    "title": "Write a poem or short story",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 556,
+    "title": "Listen to calming music for 10 minutes",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 557,
+    "title": "Avoid comparing yourself with others",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 558,
+    "title": "Celebrate a small win",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 559,
+    "title": "Reward yourself in a healthy way",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 560,
+    "title": "Practice patience in a hard moment",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 561,
+    "title": "Practice active listening in one conversation",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 562,
+    "title": "Smile at 3 people today",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 563,
+    "title": "Thank someone in person",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 564,
+    "title": "Accept feedback without defending",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 565,
+    "title": "Ask for feedback from someone",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 566,
+    "title": "Stay calm in one stressful moment",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 567,
+    "title": "Pause for 10 seconds before reacting",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 568,
+    "title": "Practice saying no politely",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 569,
+    "title": "Do one thing that scares you slightly",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 570,
+    "title": "Take 100% ownership of one problem",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 571,
+    "title": "Avoid excuses for one full day",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 572,
+    "title": "Keep every promise you made today",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 573,
+    "title": "Be on time for everything today",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 574,
+    "title": "Finish what you start today",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 575,
+    "title": "Do the hardest task first",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 576,
+    "title": "Complete your 'must do' list",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 577,
+    "title": "Say affirmations in the mirror",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 578,
+    "title": "Spend 10 minutes thinking about your long-term goals",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 579,
+    "title": "Read a biography of a successful person",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 580,
+    "title": "Watch a documentary",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 581,
+    "title": "Watch one motivational video (max 10 minutes)",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 582,
+    "title": "Avoid doom-scrolling news",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 583,
+    "title": "Stay hydrated and mood-check at noon",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 584,
+    "title": "Take a screen-free evening",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 585,
+    "title": "Have one meaningful conversation",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 586,
+    "title": "Learn something from a senior",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 587,
+    "title": "Visit a place of peace or worship",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 588,
+    "title": "Write down your fears and one action for each",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 589,
+    "title": "Practice gratitude to a teacher",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 590,
+    "title": "Help a classmate with a doubt",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 591,
+    "title": "Share knowledge with someone",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 592,
+    "title": "Reflect on your week in 5 lines",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 593,
+    "title": "Plan a small weekly treat",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 594,
+    "title": "Disconnect from the internet for 1 hour",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 595,
+    "title": "Take a 30-minute social-media-free walk",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 596,
+    "title": "Write your top 3 priorities for the week",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 597,
+    "title": "Review your habits tracker",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 598,
+    "title": "Keep screen time under 2 hours (non-study)",
+    "category": "Digital Detox",
+    "points": 17,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 599,
+    "title": "Keep screen time under 3 hours (non-study)",
+    "category": "Digital Detox",
+    "points": 22,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 600,
+    "title": "Keep screen time under 4 hours (non-study)",
+    "category": "Digital Detox",
+    "points": 27,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 601,
+    "title": "Keep screen time under 5 hours (non-study)",
+    "category": "Digital Detox",
+    "points": 32,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 602,
+    "title": "No Instagram today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 603,
+    "title": "Limit Instagram to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 604,
+    "title": "No YouTube Shorts today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 605,
+    "title": "Limit YouTube Shorts to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 606,
+    "title": "No Facebook today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 607,
+    "title": "Limit Facebook to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 608,
+    "title": "No Snapchat today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 609,
+    "title": "Limit Snapchat to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 610,
+    "title": "No Twitter/X today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 611,
+    "title": "Limit Twitter/X to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 612,
+    "title": "No Reddit today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 613,
+    "title": "Limit Reddit to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 614,
+    "title": "No WhatsApp status today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 615,
+    "title": "Limit WhatsApp status to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 616,
+    "title": "No Netflix today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 617,
+    "title": "Limit Netflix to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 618,
+    "title": "No OTT apps today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 619,
+    "title": "Limit OTT apps to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 620,
+    "title": "No mobile games today",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 621,
+    "title": "Limit mobile games to 15 minutes today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 622,
+    "title": "Phone in another room for 30 minutes",
+    "category": "Digital Detox",
+    "points": 9,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 623,
+    "title": "Phone in another room for 60 minutes",
+    "category": "Digital Detox",
+    "points": 12,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 624,
+    "title": "Phone in another room for 90 minutes",
+    "category": "Digital Detox",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 625,
+    "title": "Phone in another room for 120 minutes",
+    "category": "Digital Detox",
+    "points": 18,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 626,
+    "title": "Turn off non-essential notifications",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 627,
+    "title": "Delete one unused app",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 628,
+    "title": "Clear your phone gallery for 10 minutes",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 629,
+    "title": "Unsubscribe from 3 email lists",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 630,
+    "title": "Clean your inbox to zero",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 631,
+    "title": "Organize phone home screen",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 632,
+    "title": "Use grayscale mode for the day",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 633,
+    "title": "Use app timers for social media",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 634,
+    "title": "Charge phone outside the bedroom",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 635,
+    "title": "No phone while eating",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 636,
+    "title": "No phone in the washroom",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 637,
+    "title": "No phone in the first hour",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 638,
+    "title": "No phone in the last hour before bed",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 639,
+    "title": "No scrolling in bed",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 640,
+    "title": "Keep phone on Do Not Disturb during study",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 641,
+    "title": "Mute group chats during study",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 642,
+    "title": "Check messages only 3 times today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 643,
+    "title": "Reply to messages in a batch",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 644,
+    "title": "Avoid late-night video watching",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 645,
+    "title": "No binge-watching today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 646,
+    "title": "No gaming today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 647,
+    "title": "Limit gaming to 30 minutes",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 648,
+    "title": "Watch only planned content",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 649,
+    "title": "Uninstall a distracting app for a week",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 650,
+    "title": "Use website blocker while studying",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 651,
+    "title": "Use a physical alarm clock instead of phone",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 652,
+    "title": "Use a notebook instead of phone notes for 1 day",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 653,
+    "title": "Turn off autoplay on videos",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 654,
+    "title": "Log out of social media accounts for the day",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 655,
+    "title": "Take a full-day digital sabbath on Sunday",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 656,
+    "title": "Spend 1 hour offline with a book",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 657,
+    "title": "Spend 1 hour offline outdoors",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 658,
+    "title": "Backup your important files",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 659,
+    "title": "Clean your laptop desktop and downloads",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 660,
+    "title": "Organize files and folders",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 661,
+    "title": "Update your passwords safely",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 662,
+    "title": "Enable two-factor authentication",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 663,
+    "title": "Review app permissions on phone",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 664,
+    "title": "Check your daily screen-time report",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 665,
+    "title": "Write down your screen time and set a lower goal",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 666,
+    "title": "Plan tomorrow tonight",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 667,
+    "title": "Write a to-do list with top 3 priorities",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 668,
+    "title": "Eat the frog: do the hardest task first",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 669,
+    "title": "Time-block your whole day",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 670,
+    "title": "Use the 2-minute rule for small tasks",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 671,
+    "title": "Complete 3 Pomodoros back-to-back",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 672,
+    "title": "Finish all must-do tasks by 6 PM",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 673,
+    "title": "Clear your task backlog for 20 minutes",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 674,
+    "title": "Review your weekly goals",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 675,
+    "title": "Plan the week on Sunday",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 676,
+    "title": "Do a weekly review on Sunday",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 677,
+    "title": "Do a monthly review",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 678,
+    "title": "Declutter your digital workspace",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 679,
+    "title": "Declutter your physical workspace",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 680,
+    "title": "Organize notes in one app",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 681,
+    "title": "Use a habit tracker",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 682,
+    "title": "Batch similar tasks together",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 683,
+    "title": "Set a start and end time for work",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 684,
+    "title": "Avoid multitasking for 2 hours",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 685,
+    "title": "Do a 90-minute focus block",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 686,
+    "title": "Do a 120-minute focus block",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 687,
+    "title": "Take a 5-minute break after each focus block",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 688,
+    "title": "Prepare your clothes the night before",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 689,
+    "title": "Prepare your bag the night before",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 690,
+    "title": "Keep a daily expense log",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 691,
+    "title": "Check your calendar in the morning",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 692,
+    "title": "Add deadlines to your calendar",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 693,
+    "title": "Break one big task into smaller steps",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 694,
+    "title": "Delegate or drop one unnecessary task",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 695,
+    "title": "Say no to one low-value request",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 696,
+    "title": "Finish one task you postponed",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 697,
+    "title": "Finish one task 1 day before the deadline",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 698,
+    "title": "Start the most important task within 10 minutes of sitting",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 699,
+    "title": "Remove one distraction from your desk",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 700,
+    "title": "Keep only essential items on your desk",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 701,
+    "title": "Use a timer for every study session",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 702,
+    "title": "Set a daily MIT (Most Important Task)",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 703,
+    "title": "Complete your MIT before noon",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 704,
+    "title": "Write what you completed in a daily log",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 705,
+    "title": "Spend 10 minutes planning your day",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 706,
+    "title": "Review the end-of-day checklist",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 707,
+    "title": "Arrive 10 minutes early to class",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 708,
+    "title": "Prepare for tomorrow's classes",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 709,
+    "title": "Set reminders for assignments",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 710,
+    "title": "Make a list of pending submissions",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 711,
+    "title": "Track time spent on each task",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 712,
+    "title": "Identify one time-waster and remove it",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 713,
+    "title": "Automate one repetitive task",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 714,
+    "title": "Write a shell or Python script for a boring task",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 715,
+    "title": "Use keyboard shortcuts for 1 hour",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 716,
+    "title": "Clean your email inbox",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 717,
+    "title": "Reply to important emails within 24 hours",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 718,
+    "title": "Make a to-don't list",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 719,
+    "title": "Complete a 3-day streak",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 720,
+    "title": "Complete a 7-day streak",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 721,
+    "title": "Complete a 14-day streak",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 722,
+    "title": "Complete a 21-day streak",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 723,
+    "title": "Complete a 30-day streak",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 724,
+    "title": "Finish your day with zero pending tasks",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 725,
+    "title": "Complete all strict tasks today",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 726,
+    "title": "Complete 80% of tasks today",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 727,
+    "title": "Complete 100% of tasks today",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 728,
+    "title": "Beat yesterday's points",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 729,
+    "title": "Reach 100 points today",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 730,
+    "title": "Reach 150 points today",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 731,
+    "title": "Reach 200 points today",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 732,
+    "title": "Reach 250 points today",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 733,
+    "title": "Take a rest day with a light routine",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 734,
+    "title": "Share your progress with an accountability partner",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 735,
+    "title": "Post your daily update in a group",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 736,
+    "title": "Track your streak on paper",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 737,
+    "title": "Write your reason for doing the Winter Arc",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 738,
+    "title": "Review your Winter Arc goals",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 739,
+    "title": "Reflect on your biggest distraction",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 740,
+    "title": "Plan a reward for your next milestone",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 741,
+    "title": "Meet a weekly target",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 742,
+    "title": "Reorganize your schedule for better focus",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 743,
+    "title": "Do one task with full presence",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 744,
+    "title": "Start work without checking your phone",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 745,
+    "title": "Finish work and shut down properly",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 746,
+    "title": "Use a visual planner",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 747,
+    "title": "Tidy your bag and notebooks",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 748,
+    "title": "Check pending fees or forms",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 749,
+    "title": "Renew or update pending documents",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 750,
+    "title": "Back up your phone",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 751,
+    "title": "Arrange your study material for tomorrow",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 752,
+    "title": "Submit one pending task",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 753,
+    "title": "Reply to a pending message",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 754,
+    "title": "Clear 5 old notes or files",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 755,
+    "title": "Make a list of 3 things to stop doing",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 756,
+    "title": "Use one productivity technique you never tried",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 757,
+    "title": "Spend 15 minutes on a long-term project",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 758,
+    "title": "Work on your startup idea for 30 minutes",
+    "category": "Productivity",
+    "points": 10,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 759,
+    "title": "Track all expenses today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 760,
+    "title": "No impulse purchase today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 761,
+    "title": "No online shopping today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 762,
+    "title": "No food delivery today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 763,
+    "title": "Save a fixed amount today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 764,
+    "title": "Save 50 rupees today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 765,
+    "title": "Save 100 rupees today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 766,
+    "title": "Review your monthly budget",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 767,
+    "title": "Set a monthly spending limit",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 768,
+    "title": "Check your bank balance",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 769,
+    "title": "Pay pending bills on time",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 770,
+    "title": "Compare prices before buying",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 771,
+    "title": "Cancel one unused subscription",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 772,
+    "title": "Learn one personal finance concept",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 773,
+    "title": "Read about SIP and mutual funds",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 774,
+    "title": "Read about the stock market basics",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 775,
+    "title": "Read about inflation",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 776,
+    "title": "Read about emergency funds",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 777,
+    "title": "Learn how UPI and digital payments stay safe",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 778,
+    "title": "Check for scam and phishing awareness",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 779,
+    "title": "Learn basics of taxes",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 780,
+    "title": "Learn about credit scores",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 781,
+    "title": "Learn about insurance",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 782,
+    "title": "Plan an emergency fund goal",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 783,
+    "title": "Set a financial goal for 3 months",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 784,
+    "title": "Make a list of needs vs wants",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 785,
+    "title": "Sell or donate one unused item",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 786,
+    "title": "Do a 24-hour wait before buying",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 787,
+    "title": "Pack lunch instead of buying",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 788,
+    "title": "Walk instead of taking a ride when possible",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 789,
+    "title": "Cook at home today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 790,
+    "title": "Plan weekly groceries",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 791,
+    "title": "Do a 'no spend' day",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 792,
+    "title": "Reflect on your biggest expense this week",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 793,
+    "title": "Invest time in a side income idea",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 794,
+    "title": "Research one freelance gig",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 795,
+    "title": "Learn one skill that can earn money",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 796,
+    "title": "Update your expense sheet",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 797,
+    "title": "Clean your wallet and bag",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 798,
+    "title": "Arrange your important documents",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 799,
+    "title": "Make a list of monthly subscriptions",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 800,
+    "title": "Review your phone and data plan",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 801,
+    "title": "Keep a gratitude note about what you own",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 802,
+    "title": "Spend time with family without phone",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 803,
+    "title": "Help someone at home with a chore",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 804,
+    "title": "Cook or help cook a family meal",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 805,
+    "title": "Do the dishes or cleaning at home",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 806,
+    "title": "Wash your own clothes",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 807,
+    "title": "Iron your clothes for the week",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 808,
+    "title": "Clean your room fully",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 809,
+    "title": "Clean your bathroom or share the cleaning",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 810,
+    "title": "Take out the trash on time",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 811,
+    "title": "Fix or repair one small thing",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 812,
+    "title": "Organize your wardrobe",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 813,
+    "title": "Organize your cupboard shelf",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 814,
+    "title": "Water plants or care for a pet",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 815,
+    "title": "Call grandparents or elders",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 816,
+    "title": "Thank your parents",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 817,
+    "title": "Message a friend to check on them",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 818,
+    "title": "Meet a friend in person",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 819,
+    "title": "Attend a family or community event",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 820,
+    "title": "Volunteer for 1 hour",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 821,
+    "title": "Donate to a cause",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 822,
+    "title": "Teach a younger sibling something",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 823,
+    "title": "Help a friend with their studies",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 824,
+    "title": "Write a thank-you note",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 825,
+    "title": "Plan a weekend activity",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 826,
+    "title": "Plan one outdoor activity",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 827,
+    "title": "Visit a library",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 828,
+    "title": "Visit a park",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 829,
+    "title": "Learn one life skill (cooking, repair, driving)",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 830,
+    "title": "Cook a new dish",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 831,
+    "title": "Learn basic first aid",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 832,
+    "title": "Learn a basic self-defence move",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 833,
+    "title": "Learn a new language word set (5 words)",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 834,
+    "title": "Practice English speaking for 15 minutes",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 835,
+    "title": "Practice Hindi or regional-language reading",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 836,
+    "title": "Write a letter by hand",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 837,
+    "title": "Take a photograph for creativity",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 838,
+    "title": "Plan a trip budget",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 839,
+    "title": "Plan a budget-friendly outing",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 840,
+    "title": "Check your daily steps vs goal",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 841,
+    "title": "Do a 10-minute declutter",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 842,
+    "title": "Create a list of 5 things you want to achieve this month",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 843,
+    "title": "Cut your nails and groom properly",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 844,
+    "title": "Maintain personal hygiene routine",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 845,
+    "title": "Iron and prepare formal clothes",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 846,
+    "title": "Polish your shoes",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 847,
+    "title": "Do a skincare routine",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 848,
+    "title": "Keep your bag organized",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 849,
+    "title": "Be punctual for every plan today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 850,
+    "title": "Avoid unnecessary spending on snacks",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 851,
+    "title": "Use public or shared transport when possible",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 852,
+    "title": "Keep your promises today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 853,
+    "title": "Say sorry or thank you when needed",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 854,
+    "title": "Be respectful and calm in every talk today",
+    "category": "Finance & Life",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 855,
+    "title": "Sleep by 9:30 PM",
+    "category": "Night & Sleep",
+    "points": 30,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 856,
+    "title": "Sleep by 10:00 PM",
+    "category": "Night & Sleep",
+    "points": 27,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 857,
+    "title": "Sleep by 10:15 PM",
+    "category": "Night & Sleep",
+    "points": 25,
+    "strict": true,
+    "difficulty": "hard"
+  },
+  {
+    "id": 858,
+    "title": "Sleep by 10:30 PM",
+    "category": "Night & Sleep",
+    "points": 22,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 859,
+    "title": "Sleep by 10:45 PM",
+    "category": "Night & Sleep",
+    "points": 18,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 860,
+    "title": "Sleep by 11:00 PM",
+    "category": "Night & Sleep",
+    "points": 15,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 861,
+    "title": "Sleep by 11:15 PM",
+    "category": "Night & Sleep",
+    "points": 12,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 862,
+    "title": "Sleep by 11:30 PM",
+    "category": "Night & Sleep",
+    "points": 9,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 863,
+    "title": "Sleep at least 6 hours",
+    "category": "Night & Sleep",
+    "points": 14,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 864,
+    "title": "Sleep at least 7 hours",
+    "category": "Night & Sleep",
+    "points": 15,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 865,
+    "title": "Sleep at least 8 hours",
+    "category": "Night & Sleep",
+    "points": 16,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 866,
+    "title": "Sleep at least 9 hours",
+    "category": "Night & Sleep",
+    "points": 17,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 867,
+    "title": "No screens for 15 minutes before bed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 868,
+    "title": "No screens for 30 minutes before bed",
+    "category": "Night & Sleep",
+    "points": 11,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 869,
+    "title": "No screens for 45 minutes before bed",
+    "category": "Night & Sleep",
+    "points": 14,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 870,
+    "title": "No screens for 60 minutes before bed",
+    "category": "Night & Sleep",
+    "points": 17,
+    "strict": true,
+    "difficulty": "medium"
+  },
+  {
+    "id": 871,
+    "title": "Plan tomorrow's top 3 tasks",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 872,
+    "title": "Write a 5-line daily reflection",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 873,
+    "title": "Write 3 gratitude points",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 874,
+    "title": "Review what you completed today",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 875,
+    "title": "Mark all tasks in the tracker honestly",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 876,
+    "title": "Prepare clothes for tomorrow",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 877,
+    "title": "Pack your bag for tomorrow",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 878,
+    "title": "Keep phone away from the bed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 879,
+    "title": "Set your alarm and place it far away",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 880,
+    "title": "Dim the lights 1 hour before sleep",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 881,
+    "title": "Keep the room dark and cool",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 882,
+    "title": "Read a physical book for 15 minutes",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 883,
+    "title": "Read a physical book for 30 minutes",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 884,
+    "title": "Listen to calm music or a sleep story",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 885,
+    "title": "Do 5 minutes of night stretching",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 886,
+    "title": "Do a short night meditation",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 887,
+    "title": "Wash face and do skincare",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 888,
+    "title": "Brush your teeth before bed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 889,
+    "title": "Take a warm shower",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 890,
+    "title": "Drink warm milk or herbal tea",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 891,
+    "title": "Avoid heavy food after 9 PM",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 892,
+    "title": "Avoid arguing or stressful talk at night",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 893,
+    "title": "Avoid news and social media at night",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 894,
+    "title": "Tidy your room for 5 minutes",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 895,
+    "title": "Clean your desk for tomorrow",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 896,
+    "title": "Keep a notepad near the bed for thoughts",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 897,
+    "title": "Write down worries and one action",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 898,
+    "title": "Review your goals for tomorrow",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 899,
+    "title": "Thank yourself for one thing done today",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 900,
+    "title": "Forgive and let go of the day",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 901,
+    "title": "Do a 2-minute visualization of tomorrow",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 902,
+    "title": "Say your night prayer or gratitude",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 903,
+    "title": "Keep the same sleep time on weekends",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 904,
+    "title": "Keep the same wake-up time on weekends",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 905,
+    "title": "Avoid naps longer than 30 minutes",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 906,
+    "title": "Take a 20-minute power nap in the afternoon",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 907,
+    "title": "Charge devices outside the bedroom",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 908,
+    "title": "Switch to night mode on all devices",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 909,
+    "title": "Put your phone on Do Not Disturb at night",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 910,
+    "title": "Lay out tomorrow's workout clothes",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 911,
+    "title": "Prepare tomorrow's breakfast ingredients",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 912,
+    "title": "Fill your water bottle for tomorrow",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 913,
+    "title": "Check tomorrow's class schedule",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 914,
+    "title": "Check tomorrow's deadlines",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 915,
+    "title": "Check weather for tomorrow",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 916,
+    "title": "Update your habit tracker",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 917,
+    "title": "Close all browser tabs and shut down laptop",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 918,
+    "title": "Do a final 5-minute tidy",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 919,
+    "title": "Say 'no' to late-night scrolling",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 920,
+    "title": "Go to bed without checking messages",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 921,
+    "title": "Fall asleep without video content",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 922,
+    "title": "Keep your bed only for sleep",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 923,
+    "title": "Use a sleep mask or earplugs if needed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 924,
+    "title": "Keep a consistent night routine for 7 days",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 925,
+    "title": "Keep a consistent night routine for 14 days",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 926,
+    "title": "Keep a consistent night routine for 30 days",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 927,
+    "title": "Lights out within 30 minutes of getting into bed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 928,
+    "title": "Do 10 deep belly breaths in bed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 929,
+    "title": "Relax each muscle group from toes to head",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 930,
+    "title": "Avoid water 30 minutes before bed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 931,
+    "title": "Finish your last meal 3 hours before sleep",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 932,
+    "title": "Write a to-do list to clear your mind",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 933,
+    "title": "Close the day with a smile",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 934,
+    "title": "Do 5 minutes of sun salutations",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 935,
+    "title": "Drink water before tea or coffee",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 936,
+    "title": "Do 3 minutes of neck and shoulder rolls",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 937,
+    "title": "Read a quote and note one takeaway",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 938,
+    "title": "Do 10 push-ups right after waking",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 939,
+    "title": "Take a 15-minute walk outside before 8 AM",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 940,
+    "title": "Practice gratitude while brushing teeth",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 941,
+    "title": "Prepare your study desk before breakfast",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 942,
+    "title": "Listen to a calm playlist while getting ready",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 943,
+    "title": "Eat a protein-rich breakfast",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 944,
+    "title": "Avoid checking WhatsApp before your first task",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 945,
+    "title": "Do 5 minutes of skipping",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 946,
+    "title": "Write one sentence about how you feel",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 947,
+    "title": "Plan your meals for the day",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 948,
+    "title": "Tidy your room before leaving",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 949,
+    "title": "Start your first deep-work block by 8 AM",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 950,
+    "title": "Do 2 minutes of box breathing",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 951,
+    "title": "Leave home on time",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 952,
+    "title": "Finish your morning routine in under 60 minutes",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 953,
+    "title": "Keep the same wake-up time all week",
+    "category": "Morning",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 954,
+    "title": "Avoid ordering food online today",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 955,
+    "title": "Eat only home-cooked food for the whole day",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 956,
+    "title": "Avoid biscuits and packaged cookies",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 957,
+    "title": "Drink a glass of water every 2 hours",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 958,
+    "title": "Have a protein shake or sprouts after workout",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 959,
+    "title": "Replace white rice with millets once today",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 960,
+    "title": "Eat boiled chana or peanuts as a snack",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 961,
+    "title": "Have a bowl of fruit salad",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 962,
+    "title": "Avoid cold drinks for the whole week",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 963,
+    "title": "Sleep 7+ hours to support recovery",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 964,
+    "title": "Check labels of what you eat today",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 965,
+    "title": "Do a posture reset every 45 minutes",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 966,
+    "title": "Avoid skipping any meal",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 967,
+    "title": "Eat a rainbow: 3 coloured vegetables",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 968,
+    "title": "Get a 15-minute walk in sunlight",
+    "category": "Diet & Health",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 969,
+    "title": "Spend your commute without social media",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 970,
+    "title": "Use airplane mode for 1 hour",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 971,
+    "title": "Replace 30 minutes of scrolling with reading",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 972,
+    "title": "Replace 30 minutes of scrolling with a walk",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 973,
+    "title": "Replace 30 minutes of scrolling with coding",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 974,
+    "title": "Mute all non-family contacts for 3 hours",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 975,
+    "title": "Archive old chats for 10 minutes",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 976,
+    "title": "Remove social apps from the home screen",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 977,
+    "title": "Watch only one episode or video today",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 978,
+    "title": "Avoid checking your phone during conversations",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 979,
+    "title": "Avoid your phone during meals with family",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 980,
+    "title": "Keep your phone face down while studying",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 981,
+    "title": "Disable red-dot badges on apps",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 982,
+    "title": "Use a browser extension to block distractions",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 983,
+    "title": "Keep the TV off for the whole day",
+    "category": "Digital Detox",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 984,
+    "title": "Avoid late-night coding unless it is a deadline",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 985,
+    "title": "Switch off WiFi at night",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 986,
+    "title": "Take 5 slow breaths with eyes closed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 987,
+    "title": "Stretch your legs and back before bed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 988,
+    "title": "Read 5 pages of fiction before sleep",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 989,
+    "title": "Avoid heavy workouts within 2 hours of bed",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 990,
+    "title": "Keep your bedroom clutter-free",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 991,
+    "title": "Hydrate lightly in the evening",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 992,
+    "title": "Finish all screen work by 9:30 PM",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 993,
+    "title": "Review tomorrow's most important task",
+    "category": "Night & Sleep",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 994,
+    "title": "Build a portfolio case study for one project",
+    "category": "Skills & Career",
+    "points": 10,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 995,
+    "title": "Learn one new feature of VS Code",
+    "category": "Skills & Career",
+    "points": 10,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 996,
+    "title": "Write a short bio for your portfolio",
+    "category": "Skills & Career",
+    "points": 10,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 997,
+    "title": "Practice one coding interview problem on paper",
+    "category": "Skills & Career",
+    "points": 10,
+    "strict": false,
+    "difficulty": "medium"
+  },
+  {
+    "id": 998,
+    "title": "Read one page of a philosophy or stoicism book",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 999,
+    "title": "Reflect on one thing you can control today",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 1000,
+    "title": "Write a 'what went well' list",
+    "category": "Mind & Mindset",
+    "points": 8,
+    "strict": false,
+    "difficulty": "easy"
+  }
+]

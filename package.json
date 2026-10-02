@@ -1,0 +1,10 @@
+{
+  "name": "frostmode",
+  "version": "1.0.0",
+  "description": "FrostMode - Winter Arc Daily Routine Tracker",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "start": "cd server && node index.js",
+    "seed": "cd server && node seedTasks.js"
+  }
+}
