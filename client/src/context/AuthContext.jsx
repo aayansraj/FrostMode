@@ -8,10 +8,11 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(localStorage.getItem("frostmode_token") || "");
   const [loading, setLoading] = useState(true);
-  const [socket, setSocket] = useState(null);
-
-  const backendUrl = import.meta.env.VITE_API_URL || "http://localhost:5050";
+  const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+  const backendUrl = import.meta.env.VITE_API_URL || (isLocal ? "http://localhost:5050" : "https://tiny-doodles-watch.loca.lt");
+  
   axios.defaults.baseURL = backendUrl;
+  axios.defaults.headers.common["bypass-tunnel-reminder"] = "true";
 
   // Set default axios header
   if (token) {
@@ -24,12 +25,15 @@ export const AuthProvider = ({ children }) => {
     // Socket initialization directly to backend URL
     const newSocket = io(backendUrl, {
       transports: ["websocket", "polling"],
-      autoConnect: true
+      autoConnect: true,
+      extraHeaders: {
+        "bypass-tunnel-reminder": "true"
+      }
     });
     setSocket(newSocket);
 
     return () => newSocket.close();
-  }, []);
+  }, [backendUrl]);
 
   useEffect(() => {
     const fetchUser = async () => {
