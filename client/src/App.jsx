@@ -54,7 +54,7 @@ import { GoogleOAuthProvider } from "@react-oauth/google";
 
 import { CustomCursor } from "./components/CustomCursor";
 
-const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || "";
+const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || "1061825611076-r9st2ddp2vcv29alm9m1m5r83h9ejdg6.apps.googleusercontent.com";
 
 export default function App() {
   return (

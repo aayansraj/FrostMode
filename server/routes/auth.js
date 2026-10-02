@@ -119,7 +119,7 @@ router.post("/login", async (req, res) => {
 
 // Initialize Google OAuth Client
 const { OAuth2Client } = require("google-auth-library");
-const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID || "1061825611076-r9st2ddp2vcv29alm9m1m5r83h9ejdg6.apps.googleusercontent.com");
 
 // @route POST /api/auth/google
 router.post("/google", async (req, res) => {
