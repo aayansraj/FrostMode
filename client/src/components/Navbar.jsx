@@ -46,18 +46,12 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 glass-panel border-b border-sky-500/20 px-4 lg:px-8 py-3 transition-colors duration-300">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Brand Logo */}
-        <Link to={user ? "/dashboard" : "/"} className="flex items-center gap-2.5 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-400 to-cyan-600 flex items-center justify-center shadow-lg shadow-sky-500/30 group-hover:scale-105 transition-transform duration-300">
-            <Snowflake className="w-6 h-6 text-slate-950 stroke-[2.5]" />
-          </div>
-          <div>
-            <span className="text-xl font-extrabold tracking-tight text-ice-gradient font-sans">
-              FrostMode
-            </span>
-            <span className="hidden sm:block text-[10px] uppercase font-bold tracking-widest text-sky-400/80 -mt-1">
-              Lock In. Level Up.
-            </span>
-          </div>
+        <Link to={user ? "/dashboard" : "/"} className="flex items-center gap-3 group">
+          <img
+            src={theme === "light" ? "/frostmode-logo-animated-light.svg" : "/frostmode-logo-animated-dark.svg"}
+            alt="FrostMode"
+            className="h-10 sm:h-11 w-auto transition-transform duration-300 group-hover:scale-105"
+          />
         </Link>
 
         {/* Desktop Nav Links */}

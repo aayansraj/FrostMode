@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="iceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0891b2" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="iceGlowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes spinSlow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; transform: scale(0.98); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+    @keyframes floatCenter {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    .rotating-bg {
+      transform-origin: 100px 100px;
+      animation: spinSlow 20s linear infinite;
+    }
+    .pulsing-glow {
+      transform-origin: 100px 100px;
+      animation: pulseGlow 3s ease-in-out infinite;
+    }
+    .floating-flake {
+      transform-origin: 100px 100px;
+      animation: floatCenter 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background Glow Aura -->
+  <circle cx="100" cy="100" r="85" fill="url(#glowGrad)" class="pulsing-glow" />
+  
+  <!-- Outer Rotating Crystal Ring -->
+  <g class="rotating-bg" opacity="0.4">
+    <circle cx="100" cy="100" r="75" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 10"/>
+    <circle cx="100" cy="100" r="60" fill="none" stroke="#06b6d4" stroke-width="1" stroke-dasharray="2 8"/>
+  </g>
+
+  <!-- Animated Center Snowflake -->
+  <g class="floating-flake" filter="url(#iceGlowFilter)">
+    <!-- Central Hexagon Core -->
+    <polygon points="100,82 115,91 115,109 100,118 85,109 85,91" fill="none" stroke="url(#iceGrad)" stroke-width="2.5" />
+    <circle cx="100" cy="100" r="6" fill="#e0f2fe" />
+
+    <!-- 6 Primary Arms -->
+    <g stroke="url(#iceGrad)" stroke-width="3.5" stroke-linecap="round">
+      <!-- Arm 1: Top -->
+      <line x1="100" y1="82" x2="100" y2="28" />
+      <path d="M100,45 L114,35 M100,45 L86,35 M100,60 L110,50 M100,60 L90,50" />
+      <circle cx="100" cy="24" r="3.5" fill="#e0f2fe" />
+
+      <!-- Arm 2: Bottom -->
+      <line x1="100" y1="118" x2="100" y2="172" />
+      <path d="M100,155 L114,165 M100,155 L86,165 M100,140 L110,150 M100,140 L90,150" />
+      <circle cx="100" cy="176" r="3.5" fill="#e0f2fe" />
+
+      <!-- Arm 3: Top Right -->
+      <g transform="rotate(60 100 100)">
+        <line x1="100" y1="82" x2="100" y2="28" />
+        <path d="M100,45 L114,35 M100,45 L86,35 M100,60 L110,50 M100,60 L90,50" />
+        <circle cx="100" cy="24" r="3.5" fill="#e0f2fe" />
+      </g>
+
+      <!-- Arm 4: Top Left -->
+      <g transform="rotate(-60 100 100)">
+        <line x1="100" y1="82" x2="100" y2="28" />
+        <path d="M100,45 L114,35 M100,45 L86,35 M100,60 L110,50 M100,60 L90,50" />
+        <circle cx="100" cy="24" r="3.5" fill="#e0f2fe" />
+      </g>
+
+      <!-- Arm 5: Bottom Right -->
+      <g transform="rotate(120 100 100)">
+        <line x1="100" y1="82" x2="100" y2="28" />
+        <path d="M100,45 L114,35 M100,45 L86,35 M100,60 L110,50 M100,60 L90,50" />
+        <circle cx="100" cy="24" r="3.5" fill="#e0f2fe" />
+      </g>
+
+      <!-- Arm 6: Bottom Left -->
+      <g transform="rotate(-120 100 100)">
+        <line x1="100" y1="82" x2="100" y2="28" />
+        <path d="M100,45 L114,35 M100,45 L86,35 M100,60 L110,50 M100,60 L90,50" />
+        <circle cx="100" cy="24" r="3.5" fill="#e0f2fe" />
+      </g>
+    </g>
+  </g>
+</svg>

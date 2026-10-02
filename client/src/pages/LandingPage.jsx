@@ -26,8 +26,8 @@ export const LandingPage = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-sky-500/10 rounded-full blur-3xl pointer-events-none -z-10" />
 
         <div className="max-w-4xl mx-auto space-y-6">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900/80 border border-sky-500/30 text-sky-300 text-xs font-bold shadow-lg shadow-sky-500/10 backdrop-blur-md animate-bounce">
-            <Snowflake className="w-4 h-4 text-sky-400" />
+          <div className="inline-flex items-center gap-2.5 px-5 py-2 rounded-full bg-slate-900/80 border border-sky-500/30 text-sky-300 text-xs font-bold shadow-lg shadow-sky-500/10 backdrop-blur-md">
+            <img src="/frostmode-icon-animated.svg" alt="FrostMode Icon" className="w-6 h-6 animate-pulse" />
             <span>Winter Arc Routine Tracker • 1000 Task Library</span>
           </div>
 
