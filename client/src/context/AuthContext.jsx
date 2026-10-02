@@ -10,6 +10,9 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [socket, setSocket] = useState(null);
 
+  const backendUrl = import.meta.env.VITE_API_URL || "http://localhost:5050";
+  axios.defaults.baseURL = backendUrl;
+
   // Set default axios header
   if (token) {
     axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
@@ -19,7 +22,6 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     // Socket initialization directly to backend URL
-    const backendUrl = window.location.hostname === "localhost" ? "http://localhost:5050" : window.location.origin;
     const newSocket = io(backendUrl, {
       transports: ["websocket", "polling"],
       autoConnect: true
