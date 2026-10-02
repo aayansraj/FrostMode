@@ -33,12 +33,12 @@ app.use(express.json());
 // Attach socket.io instance to app
 app.set("socketio", io);
 
-// Database connection
-const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/frostmode";
-mongoose
-  .connect(MONGO_URI)
-  .then(() => console.log("Connected to MongoDB database: frostmode"))
-  .catch((err) => console.error("MongoDB Connection Error:", err));
+// Database connection (Supabase PostgreSQL)
+const { initSupabase } = require("./initPostgres");
+
+initSupabase()
+  .then(() => console.log("⚡ Supabase PostgreSQL Database Connected & Initialized!"))
+  .catch((err) => console.error("❌ Supabase DB Connection Warning:", err.message));
 
 // Socket.io event handling
 io.on("connection", (socket) => {
