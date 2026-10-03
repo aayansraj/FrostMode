@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://frostmodewinterarc.netlify.app/sitemap.xml

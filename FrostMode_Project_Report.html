@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>FrostMode - Full-Stack Project Documentation & Technical Report</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap');
-    
+
     @page {
       size: A4;
       margin: 15mm 15mm 15mm 15mm;
     }
-    
+
     body {
       font-family: 'Inter', -apple-system, sans-serif;
       background-color: #0b1120;
@@ -86,6 +87,7 @@
       color: #94a3b8;
       font-weight: 500;
     }
+
     .meta-item strong {
       color: #38bdf8;
       font-weight: 700;
@@ -110,12 +112,14 @@
       margin-bottom: 10px;
     }
 
-    p, li {
+    p,
+    li {
       font-size: 14px;
       color: #cbd5e1;
     }
 
-    ul, ol {
+    ul,
+    ol {
       padding-left: 20px;
     }
 
@@ -206,6 +210,7 @@
         color: #000000 !important;
         padding: 0 !important;
       }
+
       .container {
         border: none !important;
         box-shadow: none !important;
@@ -214,21 +219,32 @@
         max-width: 100% !important;
         padding: 0 !important;
       }
-      h1, h2, h3, .subtitle, strong {
+
+      h1,
+      h2,
+      h3,
+      .subtitle,
+      strong {
         color: #000000 !important;
       }
-      p, li, td {
+
+      p,
+      li,
+      td {
         color: #333333 !important;
       }
+
       .table-custom th {
         background: #f1f5f9 !important;
         color: #000000 !important;
       }
+
       .code-box {
         background: #f8fafc !important;
         color: #0f172a !important;
         border: 1px solid #cbd5e1 !important;
       }
+
       .step-card {
         background: #f8fafc !important;
         border: 1px solid #cbd5e1 !important;
@@ -236,16 +252,18 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="container">
-    
+
     <!-- HEADER -->
     <div class="header">
       <div class="badge">Comprehensive Project Report</div>
       <h1>FROSTMODE — WINTER ARC TRACKER</h1>
       <div class="subtitle">"Lock In. Level Up."</div>
-      <p style="margin: 0; font-size: 13px; color: #94a3b8;">Full-Stack Web Application Architecture, Cloud Database Connection, and Production Deployment Report</p>
+      <p style="margin: 0; font-size: 13px; color: #94a3b8;">Full-Stack Web Application Architecture, Cloud Database
+        Connection, and Production Deployment Report</p>
 
       <div class="meta-grid">
         <div class="meta-item"><span>Developer / Student:</span> <strong>Aayans Raj</strong></div>
@@ -260,7 +278,11 @@
     <!-- SECTION 1: PROJECT OVERVIEW -->
     <h2>1. Executive Project Overview</h2>
     <p>
-      <strong>FrostMode</strong> is a full-stack gamified Winter Arc daily routine and habit tracking application engineered to help users lock in for a 90-day discipline challenge. The application features a collection of <strong>1,000 structured Winter Arc tasks</strong>, strict mode multiplier penalties (+50% bonus / -50% penalty), real-time leaderboards powered by Socket.io, a custom points store, progress heatmaps, and an interactive dark winter glassmorphism user interface.
+      <strong>FrostMode</strong> is a full-stack gamified Winter Arc daily routine and habit tracking application
+      engineered to help users lock in for a 90-day discipline challenge. The application features a collection of
+      <strong>1,000 structured Winter Arc tasks</strong>, strict mode multiplier penalties (+50% bonus / -50% penalty),
+      real-time leaderboards powered by Socket.io, a custom points store, progress heatmaps, and an interactive dark
+      winter glassmorphism user interface.
     </p>
 
     <!-- SECTION 2: SYSTEM ARCHITECTURE -->
@@ -326,7 +348,9 @@
         Brand Identity & Animated SVG Logos
       </div>
       <p>
-        Designed and embedded custom animated brand logos (<code>frostmode-logo-animated-dark.svg</code>, <code>frostmode-logo-animated-light.svg</code>, and <code>frostmode-icon-animated.svg</code>) featuring glowing snowflake pulses and sleek typography matching the "Lock In. Level Up." theme.
+        Designed and embedded custom animated brand logos (<code>frostmode-logo-animated-dark.svg</code>,
+        <code>frostmode-logo-animated-light.svg</code>, and <code>frostmode-icon-animated.svg</code>) featuring glowing
+        snowflake pulses and sleek typography matching the "Lock In. Level Up." theme.
       </p>
     </div>
 
@@ -336,7 +360,9 @@
         Custom Interactive Ice Cursor & Snow FX
       </div>
       <p>
-        Developed an interactive custom cursor component (<code>CustomCursor.jsx</code>) with dynamic ice trail particles and hover states, combined with an HTML5 canvas snow background (<code>SnowBackground.jsx</code>) for a 60 FPS winter aesthetic.
+        Developed an interactive custom cursor component (<code>CustomCursor.jsx</code>) with dynamic ice trail
+        particles and hover states, combined with an HTML5 canvas snow background (<code>SnowBackground.jsx</code>) for
+        a 60 FPS winter aesthetic.
       </p>
     </div>
 
@@ -346,7 +372,8 @@
         1,000 Winter Arc Tasks & Database Schema Design
       </div>
       <p>
-        Constructed a 1,000-task JSON library (<code>winter_arc_tasks.json</code>) covering Health, Fitness, Mindset, and Productivity. Designed 7 database schemas:
+        Constructed a 1,000-task JSON library (<code>winter_arc_tasks.json</code>) covering Health, Fitness, Mindset,
+        and Productivity. Designed 7 database schemas:
       </p>
       <ul>
         <li><code>users</code> — User profiles, level ranks, wallet points, streaks, avatars</li>
@@ -365,7 +392,10 @@
         Supabase Cloud PostgreSQL Database Integration
       </div>
       <p>
-        Connected the backend to Supabase PostgreSQL cloud infrastructure (<code>aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres</code>). Built an automated batch seeder (<code>initPostgres.js</code>) that creates SQL tables and seeds all 1,000 tasks and demo warriors into Supabase in less than 1 second.
+        Connected the backend to Supabase PostgreSQL cloud infrastructure
+        (<code>aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres</code>). Built an automated batch seeder
+        (<code>initPostgres.js</code>) that creates SQL tables and seeds all 1,000 tasks and demo warriors into Supabase
+        in less than 1 second.
       </p>
       <div class="code-box">
         DATABASE_URL="postgresql://postgres.iigurmvwjkjsnmhhgwqq:[PASSWORD]@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
@@ -378,7 +408,10 @@
         Google OAuth 2.0 Integration & Show/Hide Password Toggle
       </div>
       <p>
-        Integrated Google Identity Services using OAuth Client ID <code>1061825611076-r9st2ddp2vcv29alm9m1m5r83h9ejdg6.apps.googleusercontent.com</code>. Added an eye toggle button for password visibility on sign-in and created a fail-proof authentication context (<code>AuthContext.jsx</code>) ensuring smooth session token persistence.
+        Integrated Google Identity Services using OAuth Client ID
+        <code>1061825611076-r9st2ddp2vcv29alm9m1m5r83h9ejdg6.apps.googleusercontent.com</code>. Added an eye toggle
+        button for password visibility on sign-in and created a fail-proof authentication context
+        (<code>AuthContext.jsx</code>) ensuring smooth session token persistence.
       </p>
     </div>
 
@@ -388,7 +421,9 @@
         Executive Glassmorphic Navbar Redesign
       </div>
       <p>
-        Redesigned the main header navigation (<code>Navbar.jsx</code>) into a floating glassmorphic pill with single-line non-wrapping item labels (<code>whitespace-nowrap</code>), real-time snowflake points counter, user level rank badge (<code>👑 Beginner</code>), strict mode indicator, and mobile menu drawer.
+        Redesigned the main header navigation (<code>Navbar.jsx</code>) into a floating glassmorphic pill with
+        single-line non-wrapping item labels (<code>whitespace-nowrap</code>), real-time snowflake points counter, user
+        level rank badge (<code>👑 Beginner</code>), strict mode indicator, and mobile menu drawer.
       </p>
     </div>
 
@@ -398,7 +433,10 @@
         Netlify Production Deployment & Build Pipeline Fixes
       </div>
       <p>
-        Deployed the application on Netlify (<code>frostmodewinterarc.netlify.app</code>). Configured <code>netlify.toml</code> build commands (<code>npm install --prefix client && npm run build --prefix client</code>) and SPA redirects (<code>/* /index.html 200</code>) to prevent 404 page refresh errors.
+        Deployed the application on Netlify (<code>frostmodewinterarc.netlify.app</code>). Configured
+        <code>netlify.toml</code> build commands
+        (<code>npm install --prefix client && npm run build --prefix client</code>) and SPA redirects
+        (<code>/* /index.html 200</code>) to prevent 404 page refresh errors.
       </p>
     </div>
 
@@ -408,7 +446,9 @@
         Google Search Indexing & Ownership Verification
       </div>
       <p>
-        Added Google site verification meta tag (<code>YVrSh6zte2biHSoLdRdTngmIVQW4dXYizKE0obyDTYc</code>) and OpenGraph tags to <code>index.html</code>. Successfully verified website ownership on Google Search Console and submitted priority search indexing requests for Google Search results.
+        Added Google site verification meta tag (<code>YVrSh6zte2biHSoLdRdTngmIVQW4dXYizKE0obyDTYc</code>) and OpenGraph
+        tags to <code>index.html</code>. Successfully verified website ownership on Google Search Console and submitted
+        priority search indexing requests for Google Search results.
       </p>
     </div>
 
@@ -425,17 +465,20 @@
       <tbody>
         <tr>
           <td><strong>Live Website (Netlify)</strong></td>
-          <td><a href="https://frostmodewinterarc.netlify.app" target="_blank" style="color: #38bdf8;">https://frostmodewinterarc.netlify.app</a></td>
+          <td><a href="https://frostmodewinterarc.netlify.app" target="_blank"
+              style="color: #38bdf8;">https://frostmodewinterarc.netlify.app</a></td>
           <td>🟢 Active & Live</td>
         </tr>
         <tr>
           <td><strong>GitHub Source Code</strong></td>
-          <td><a href="https://github.com/aayansraj/FrostMode" target="_blank" style="color: #38bdf8;">https://github.com/aayansraj/FrostMode</a></td>
+          <td><a href="https://github.com/aayansraj/FrostMode" target="_blank"
+              style="color: #38bdf8;">https://github.com/aayansraj/FrostMode</a></td>
           <td>🟢 Synced & Maintained</td>
         </tr>
         <tr>
           <td><strong>Supabase DB Dashboard</strong></td>
-          <td><a href="https://supabase.com/dashboard/project/iigurmvwjkjsnmhhgwqq" target="_blank" style="color: #38bdf8;">https://supabase.com/dashboard/project/iigurmvwjkjsnmhhgwqq</a></td>
+          <td><a href="https://supabase.com/dashboard/project/iigurmvwjkjsnmhhgwqq" target="_blank"
+              style="color: #38bdf8;">https://supabase.com/dashboard/project/iigurmvwjkjsnmhhgwqq</a></td>
           <td>🟢 1,000 Tasks Seeded</td>
         </tr>
         <tr>
@@ -453,4 +496,5 @@
   </div>
 
 </body>
+
 </html>
