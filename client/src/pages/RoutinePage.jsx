@@ -146,23 +146,23 @@ export const RoutinePage = () => {
   const isPastLocked = user?.strictMode && dayObj && dayObj.date <= todayStr;
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6 space-y-6">
+    <div className="max-w-6xl mx-auto px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6">
       {/* Day Selector Header */}
-      <div className="glass-panel p-6 rounded-3xl border border-sky-500/30 flex flex-col md:flex-row items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
+      <div className="glass-panel p-4 sm:p-6 rounded-2xl sm:rounded-3xl border border-sky-500/30 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="flex items-center justify-between w-full md:w-auto gap-2 sm:gap-3">
           <button
             onClick={() => setCurrentDayNumber(prev => Math.max(1, prev - 1))}
             disabled={currentDayNumber <= 1}
-            className="p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 hover:text-white disabled:opacity-30"
+            className="p-2 sm:p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 hover:text-white disabled:opacity-30 active:scale-95"
           >
-            <ChevronLeft className="w-5 h-5" />
+            <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
 
           <div className="text-center md:text-left">
-            <div className="flex items-center gap-2">
-              <h1 className="text-2xl font-extrabold text-white">Day {currentDayNumber} Routine</h1>
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-1.5 sm:gap-2">
+              <h1 className="text-lg sm:text-2xl font-extrabold text-white">Day {currentDayNumber} Routine</h1>
               {dayObj && (
-                <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold uppercase ${
+                <span className={`px-2 sm:px-2.5 py-0.5 rounded-full text-[10px] sm:text-xs font-bold uppercase ${
                   dayObj.status === "perfect" ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" :
                   dayObj.status === "partial" ? "bg-amber-500/20 text-amber-300 border border-amber-500/40" :
                   dayObj.status === "missed" ? "bg-rose-500/20 text-rose-300 border border-rose-500/40" :
@@ -172,24 +172,24 @@ export const RoutinePage = () => {
                 </span>
               )}
             </div>
-            <p className="text-xs text-slate-400">{dayObj?.date || ""}</p>
+            <p className="text-[11px] sm:text-xs text-slate-400">{dayObj?.date || ""}</p>
           </div>
 
           <button
             onClick={() => setCurrentDayNumber(prev => Math.min(arc.totalDays, prev + 1))}
             disabled={currentDayNumber >= arc.totalDays}
-            className="p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 hover:text-white disabled:opacity-30"
+            className="p-2 sm:p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 hover:text-white disabled:opacity-30 active:scale-95"
           >
-            <ChevronRight className="w-5 h-5" />
+            <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
         </div>
 
         {/* Action Buttons */}
-        <div className="flex flex-wrap items-center gap-2">
+        <div className="flex items-center justify-center w-full md:w-auto gap-2">
           <button
             onClick={() => setIsAddTaskOpen(true)}
             disabled={isPastLocked}
-            className={`px-4 py-2 rounded-xl bg-sky-500 text-slate-950 font-bold text-xs flex items-center gap-1.5 hover:bg-sky-400 transition-colors ${
+            className={`flex-1 md:flex-none justify-center px-4 py-2.5 rounded-xl bg-sky-500 text-slate-950 font-bold text-xs flex items-center gap-1.5 hover:bg-sky-400 transition-colors ${
               isPastLocked ? "opacity-50 cursor-not-allowed" : ""
             }`}
           >
@@ -199,7 +199,7 @@ export const RoutinePage = () => {
 
           <button
             onClick={() => setIsCopyModalOpen(true)}
-            className="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-sky-300 font-bold text-xs flex items-center gap-1.5"
+            className="flex-1 md:flex-none justify-center px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-sky-300 font-bold text-xs flex items-center gap-1.5"
           >
             <Copy className="w-4 h-4" />
             <span>Copy Routine</span>

@@ -68,42 +68,42 @@ export const WalletPage = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 space-y-8">
       {/* Wallet Summary Banner */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {/* Spendable Wallet Points */}
-        <div className="glass-panel p-6 rounded-3xl border border-sky-400/40 bg-gradient-to-br from-sky-950/40 to-slate-900 space-y-2 shadow-xl">
+        <div className="glass-panel p-5 sm:p-6 rounded-2xl sm:rounded-3xl border border-sky-400/40 bg-gradient-to-br from-sky-950/40 to-slate-900 space-y-2 shadow-xl">
           <div className="flex items-center justify-between text-xs text-sky-300 font-bold uppercase tracking-wider">
-            <span>Spendable Wallet Balance</span>
-            <Wallet className="w-5 h-5 text-sky-400" />
+            <span>Spendable Balance</span>
+            <Wallet className="w-4 h-4 sm:w-5 sm:h-5 text-sky-400 shrink-0" />
           </div>
-          <div className="text-4xl font-black text-white">
-            {user?.walletPoints || 0} <span className="text-sm text-sky-300 font-normal">pts</span>
+          <div className="text-3xl sm:text-4xl font-black text-white">
+            {user?.walletPoints || 0} <span className="text-xs sm:text-sm text-sky-300 font-normal">pts</span>
           </div>
           <p className="text-[11px] text-slate-400">
-            Use these points to redeem your custom rewards in the store!
+            Use these points to redeem custom rewards in the store!
           </p>
         </div>
 
         {/* Total Leaderboard Points */}
-        <div className="glass-panel p-6 rounded-3xl border border-amber-500/30 bg-gradient-to-br from-amber-950/30 to-slate-900 space-y-2 shadow-xl">
+        <div className="glass-panel p-5 sm:p-6 rounded-2xl sm:rounded-3xl border border-amber-500/30 bg-gradient-to-br from-amber-950/30 to-slate-900 space-y-2 shadow-xl">
           <div className="flex items-center justify-between text-xs text-amber-300 font-bold uppercase tracking-wider">
-            <span>Leaderboard Total Points</span>
-            <Trophy className="w-5 h-5 text-amber-400" />
+            <span>Leaderboard Points</span>
+            <Trophy className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400 shrink-0" />
           </div>
-          <div className="text-4xl font-black text-amber-400">
-            {user?.totalPoints || 0} <span className="text-sm text-amber-200 font-normal">pts</span>
+          <div className="text-3xl sm:text-4xl font-black text-amber-400">
+            {user?.totalPoints || 0} <span className="text-xs sm:text-sm text-amber-200 font-normal">pts</span>
           </div>
           <p className="text-[11px] text-slate-400">
-            Redeeming rewards spends wallet points but NEVER decreases leaderboard points!
+            Redeeming rewards spends wallet points but NEVER decreases rank points!
           </p>
         </div>
 
         {/* Level & Next Tier */}
-        <div className="glass-panel p-6 rounded-3xl border border-sky-500/30 bg-slate-900 space-y-2">
+        <div className="glass-panel p-5 sm:p-6 rounded-2xl sm:rounded-3xl border border-sky-500/30 bg-slate-900 space-y-2 col-span-1 sm:col-span-2 lg:col-span-1">
           <div className="flex items-center justify-between text-xs text-slate-400 font-bold uppercase tracking-wider">
             <span>Level Progression</span>
-            <Sparkles className="w-5 h-5 text-amber-400" />
+            <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400 shrink-0" />
           </div>
-          <div className="text-2xl font-black text-white">
+          <div className="text-2xl sm:text-3xl font-black text-white">
             {pointsSummary?.level || "Beginner"}
           </div>
           <div className="space-y-1">
@@ -122,11 +122,11 @@ export const WalletPage = () => {
       </div>
 
       {/* Tabs Switcher */}
-      <div className="flex items-center justify-between flex-col sm:flex-row gap-4">
-        <div className="flex bg-slate-900/80 p-1 rounded-2xl border border-slate-800 w-full sm:w-auto">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="flex bg-slate-900/80 p-1 rounded-2xl border border-slate-800 w-full sm:w-auto overflow-x-auto no-scrollbar">
           <button
             onClick={() => setActiveTab("rewards")}
-            className={`flex-1 sm:flex-none px-5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+            className={`flex-1 sm:flex-none px-4 sm:px-5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all flex items-center justify-center gap-1.5 ${
               activeTab === "rewards" ? "bg-sky-500/20 text-sky-300 border border-sky-400/30" : "text-slate-400 hover:text-white"
             }`}
           >
@@ -135,7 +135,7 @@ export const WalletPage = () => {
           </button>
           <button
             onClick={() => setActiveTab("history")}
-            className={`flex-1 sm:flex-none px-5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+            className={`flex-1 sm:flex-none px-4 sm:px-5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all flex items-center justify-center gap-1.5 ${
               activeTab === "history" ? "bg-sky-500/20 text-sky-300 border border-sky-400/30" : "text-slate-400 hover:text-white"
             }`}
           >
@@ -144,7 +144,7 @@ export const WalletPage = () => {
           </button>
           <button
             onClick={() => setActiveTab("badges")}
-            className={`flex-1 sm:flex-none px-5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+            className={`flex-1 sm:flex-none px-4 sm:px-5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all flex items-center justify-center gap-1.5 ${
               activeTab === "badges" ? "bg-sky-500/20 text-sky-300 border border-sky-400/30" : "text-slate-400 hover:text-white"
             }`}
           >
@@ -156,7 +156,7 @@ export const WalletPage = () => {
         {activeTab === "rewards" && (
           <button
             onClick={() => setIsAddRewardOpen(true)}
-            className="w-full sm:w-auto px-4 py-2 rounded-xl bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 hover:bg-amber-400 shadow-lg shadow-amber-500/20"
+            className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 hover:bg-amber-400 shadow-lg shadow-amber-500/20"
           >
             <Plus className="w-4 h-4" />
             <span>Create Custom Reward</span>

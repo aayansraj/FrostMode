@@ -62,10 +62,10 @@ export const TaskCard = ({
         </div>
 
         {/* Right Action Buttons */}
-        <div className="flex items-center gap-2 sm:self-center pt-2 sm:pt-0 border-t sm:border-0 border-slate-800">
+        <div className="flex items-center justify-between sm:justify-end gap-2 sm:self-center pt-2 sm:pt-0 border-t sm:border-0 border-slate-800/80">
           {/* Points Pill */}
-          <div className="flex items-center gap-1 px-3 py-1 rounded-xl bg-slate-950 border border-sky-500/30 text-sky-400 text-xs font-bold mr-2">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+          <div className="flex items-center gap-1 px-2.5 sm:px-3 py-1 rounded-xl bg-slate-950 border border-sky-500/30 text-sky-400 text-xs font-bold">
+            <Sparkles className="w-3.5 h-3.5 text-amber-400 shrink-0" />
             <span>
               {task.status === "followed"
                 ? `+${task.pointsEarned}`
@@ -75,62 +75,64 @@ export const TaskCard = ({
             </span>
           </div>
 
-          {/* Status Buttons */}
-          <div className="flex items-center gap-1 bg-slate-950/80 p-1 rounded-xl border border-slate-800">
-            {/* Followed (Completed) */}
-            <button
-              onClick={() => onStatusChange(task._id, "followed")}
-              disabled={isLocked && task.status !== "pending"}
-              className={`p-2 rounded-lg text-xs font-bold flex items-center gap-1 transition-all ${
-                task.status === "followed"
-                  ? "bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/30"
-                  : "text-slate-400 hover:text-emerald-400 hover:bg-emerald-950/40"
-              } ${isLocked && task.status !== "pending" ? "opacity-50 cursor-not-allowed" : ""}`}
-              title="Mark as Followed"
-            >
-              <Check className="w-4 h-4 stroke-[3]" />
-              <span className="hidden lg:inline">Followed</span>
-            </button>
+          <div className="flex items-center gap-1.5">
+            {/* Status Buttons */}
+            <div className="flex items-center gap-1 bg-slate-950/80 p-1 rounded-xl border border-slate-800">
+              {/* Followed (Completed) */}
+              <button
+                onClick={() => onStatusChange(task._id, "followed")}
+                disabled={isLocked && task.status !== "pending"}
+                className={`p-2 rounded-lg text-xs font-bold flex items-center gap-1 transition-all active:scale-95 ${
+                  task.status === "followed"
+                    ? "bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/30"
+                    : "text-slate-400 hover:text-emerald-400 hover:bg-emerald-950/40"
+                } ${isLocked && task.status !== "pending" ? "opacity-50 cursor-not-allowed" : ""}`}
+                title="Mark as Followed"
+              >
+                <Check className="w-4 h-4 stroke-[3]" />
+                <span className="hidden sm:inline">Followed</span>
+              </button>
 
-            {/* Not Followed (Skipped) */}
-            <button
-              onClick={() => onStatusChange(task._id, "not_followed")}
-              disabled={isLocked && task.status !== "pending"}
-              className={`p-2 rounded-lg text-xs font-bold flex items-center gap-1 transition-all ${
-                task.status === "not_followed"
-                  ? "bg-rose-600 text-white shadow-md shadow-rose-600/30"
-                  : "text-slate-400 hover:text-rose-400 hover:bg-rose-950/40"
-              } ${isLocked && task.status !== "pending" ? "opacity-50 cursor-not-allowed" : ""}`}
-              title="Mark as Missed"
-            >
-              <X className="w-4 h-4 stroke-[3]" />
-              <span className="hidden lg:inline">Missed</span>
-            </button>
-          </div>
-
-          {/* Edit / Delete (Disabled in Strict Mode) */}
-          {!isLocked && (
-            <div className="flex items-center gap-1 ml-1">
-              {onEdit && (
-                <button
-                  onClick={() => onEdit(task)}
-                  className="p-1.5 text-slate-400 hover:text-sky-300 rounded-lg hover:bg-slate-800"
-                  title="Edit Task"
-                >
-                  <Edit2 className="w-3.5 h-3.5" />
-                </button>
-              )}
-              {onDelete && (
-                <button
-                  onClick={() => onDelete(task._id)}
-                  className="p-1.5 text-slate-400 hover:text-red-400 rounded-lg hover:bg-red-950/40"
-                  title="Delete Task"
-                >
-                  <Trash2 className="w-3.5 h-3.5" />
-                </button>
-              )}
+              {/* Not Followed (Skipped) */}
+              <button
+                onClick={() => onStatusChange(task._id, "not_followed")}
+                disabled={isLocked && task.status !== "pending"}
+                className={`p-2 rounded-lg text-xs font-bold flex items-center gap-1 transition-all active:scale-95 ${
+                  task.status === "not_followed"
+                    ? "bg-rose-600 text-white shadow-md shadow-rose-600/30"
+                    : "text-slate-400 hover:text-rose-400 hover:bg-rose-950/40"
+                } ${isLocked && task.status !== "pending" ? "opacity-50 cursor-not-allowed" : ""}`}
+                title="Mark as Missed"
+              >
+                <X className="w-4 h-4 stroke-[3]" />
+                <span className="hidden sm:inline">Missed</span>
+              </button>
             </div>
-          )}
+
+            {/* Edit / Delete (Disabled in Strict Mode) */}
+            {!isLocked && (onEdit || onDelete) && (
+              <div className="flex items-center gap-1">
+                {onEdit && (
+                  <button
+                    onClick={() => onEdit(task)}
+                    className="p-1.5 text-slate-400 hover:text-sky-300 rounded-lg hover:bg-slate-800"
+                    title="Edit Task"
+                  >
+                    <Edit2 className="w-3.5 h-3.5" />
+                  </button>
+                )}
+                {onDelete && (
+                  <button
+                    onClick={() => onDelete(task._id)}
+                    className="p-1.5 text-slate-400 hover:text-red-400 rounded-lg hover:bg-red-950/40"
+                    title="Delete Task"
+                  >
+                    <Trash2 className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>

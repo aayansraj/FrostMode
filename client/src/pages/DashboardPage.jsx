@@ -155,20 +155,20 @@ export const DashboardPage = () => {
   }));
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6 space-y-8">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-8 space-y-6 sm:space-y-8">
       {/* Top Banner Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {/* Arc Progress */}
-        <div className="glass-panel p-5 rounded-3xl border border-sky-500/30 space-y-2">
-          <div className="flex items-center justify-between text-xs text-slate-400 font-semibold uppercase tracking-wider">
+        <div className="glass-panel p-3.5 sm:p-5 rounded-2xl sm:rounded-3xl border border-sky-500/30 space-y-2">
+          <div className="flex items-center justify-between text-[10px] sm:text-xs text-slate-400 font-semibold uppercase tracking-wider">
             <span>Arc Execution</span>
-            <Calendar className="w-4 h-4 text-sky-400" />
+            <Calendar className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-sky-400 shrink-0" />
           </div>
-          <div className="flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-white">Day {currentDayNum}</span>
-            <span className="text-xs text-slate-400 font-bold">/ {arc.totalDays} Days</span>
+          <div className="flex items-baseline gap-1.5 sm:gap-2">
+            <span className="text-xl sm:text-3xl font-extrabold text-white">Day {currentDayNum}</span>
+            <span className="text-[10px] sm:text-xs text-slate-400 font-bold">/ {arc.totalDays}</span>
           </div>
-          <div className="w-full h-2 rounded-full bg-slate-900 overflow-hidden border border-slate-800">
+          <div className="w-full h-1.5 sm:h-2 rounded-full bg-slate-900 overflow-hidden border border-slate-800">
             <div
               className="h-full bg-gradient-to-r from-sky-400 to-cyan-400 rounded-full transition-all duration-500"
               style={{ width: `${daysPassedPct}%` }}
@@ -177,43 +177,43 @@ export const DashboardPage = () => {
         </div>
 
         {/* Current & Best Streak */}
-        <div className="glass-panel p-5 rounded-3xl border border-orange-500/30 space-y-2">
-          <div className="flex items-center justify-between text-xs text-slate-400 font-semibold uppercase tracking-wider">
-            <span>Streak Discipline</span>
-            <Flame className="w-4 h-4 text-orange-400 fill-orange-400" />
+        <div className="glass-panel p-3.5 sm:p-5 rounded-2xl sm:rounded-3xl border border-orange-500/30 space-y-2">
+          <div className="flex items-center justify-between text-[10px] sm:text-xs text-slate-400 font-semibold uppercase tracking-wider">
+            <span>Streak</span>
+            <Flame className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-orange-400 fill-orange-400 shrink-0" />
           </div>
-          <div className="flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-orange-400">{user?.streak || 0}</span>
-            <span className="text-xs text-slate-400 font-bold">Days Active</span>
+          <div className="flex items-baseline gap-1.5 sm:gap-2">
+            <span className="text-xl sm:text-3xl font-extrabold text-orange-400">{user?.streak || 0}</span>
+            <span className="text-[10px] sm:text-xs text-slate-400 font-bold">Days</span>
           </div>
-          <p className="text-[11px] text-slate-400">Personal Best: <strong className="text-slate-200">{user?.bestStreak || 0} days</strong></p>
+          <p className="text-[10px] sm:text-[11px] text-slate-400 truncate">Best: <strong className="text-slate-200">{user?.bestStreak || 0}d</strong></p>
         </div>
 
         {/* Wallet & Total Points */}
-        <div className="glass-panel p-5 rounded-3xl border border-sky-500/30 space-y-2">
-          <div className="flex items-center justify-between text-xs text-slate-400 font-semibold uppercase tracking-wider">
+        <div className="glass-panel p-3.5 sm:p-5 rounded-2xl sm:rounded-3xl border border-sky-500/30 space-y-2">
+          <div className="flex items-center justify-between text-[10px] sm:text-xs text-slate-400 font-semibold uppercase tracking-wider">
             <span>Points & Level</span>
-            <Sparkles className="w-4 h-4 text-amber-400" />
+            <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400 shrink-0" />
           </div>
-          <div className="flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-sky-300">{user?.totalPoints || 0}</span>
-            <span className="text-xs text-amber-300 font-bold">pts</span>
+          <div className="flex items-baseline gap-1.5 sm:gap-2">
+            <span className="text-xl sm:text-3xl font-extrabold text-sky-300">{user?.totalPoints || 0}</span>
+            <span className="text-[10px] sm:text-xs text-amber-300 font-bold">pts</span>
           </div>
-          <p className="text-[11px] text-slate-400">Level: <strong className="text-amber-400">{user?.level || "Beginner"}</strong></p>
+          <p className="text-[10px] sm:text-[11px] text-slate-400 truncate">Level: <strong className="text-amber-400">{user?.level || "Beginner"}</strong></p>
         </div>
 
         {/* Leaderboard Rank */}
-        <div className="glass-panel p-5 rounded-3xl border border-amber-500/30 space-y-2">
-          <div className="flex items-center justify-between text-xs text-slate-400 font-semibold uppercase tracking-wider">
-            <span>Leaderboard Rank</span>
-            <Trophy className="w-4 h-4 text-amber-400" />
+        <div className="glass-panel p-3.5 sm:p-5 rounded-2xl sm:rounded-3xl border border-amber-500/30 space-y-2">
+          <div className="flex items-center justify-between text-[10px] sm:text-xs text-slate-400 font-semibold uppercase tracking-wider">
+            <span>Rank</span>
+            <Trophy className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400 shrink-0" />
           </div>
-          <div className="flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-amber-400">#{rankInfo.myRank}</span>
-            <span className="text-xs text-slate-400 font-bold">of {rankInfo.totalUsers || 10}</span>
+          <div className="flex items-baseline gap-1.5 sm:gap-2">
+            <span className="text-xl sm:text-3xl font-extrabold text-amber-400">#{rankInfo.myRank}</span>
+            <span className="text-[10px] sm:text-xs text-slate-400 font-bold">of {rankInfo.totalUsers || 10}</span>
           </div>
           {rankInfo.pointsNeededForNextRank > 0 && (
-            <p className="text-[11px] text-sky-400">{rankInfo.pointsNeededForNextRank} pts to next rank</p>
+            <p className="text-[10px] sm:text-[11px] text-sky-400 truncate">{rankInfo.pointsNeededForNextRank} pts to next rank</p>
           )}
         </div>
       </div>

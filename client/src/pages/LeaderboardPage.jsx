@@ -96,9 +96,9 @@ export const LeaderboardPage = () => {
       )}
 
       {/* Filter & Timeframe Controls */}
-      <div className="glass-panel p-4 rounded-2xl border border-sky-500/20 flex flex-col md:flex-row items-center justify-between gap-4">
-        {/* Timeframe Tabs */}
-        <div className="flex bg-slate-900/80 p-1 rounded-2xl border border-slate-800 w-full md:w-auto">
+      <div className="glass-panel p-3.5 sm:p-4 rounded-2xl border border-sky-500/20 flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4">
+        {/* Timeframe Tabs (Scrollable on mobile) */}
+        <div className="flex bg-slate-900/80 p-1 rounded-2xl border border-slate-800 w-full md:w-auto overflow-x-auto no-scrollbar">
           {[
             { id: "all", label: "All Time" },
             { id: "today", label: "Today" },
@@ -108,7 +108,7 @@ export const LeaderboardPage = () => {
             <button
               key={tab.id}
               onClick={() => setTimeframe(tab.id)}
-              className={`flex-1 md:flex-none px-4 py-1.5 rounded-xl text-xs font-bold transition-all ${
+              className={`flex-1 md:flex-none px-3.5 sm:px-4 py-2 sm:py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                 timeframe === tab.id
                   ? "bg-sky-500/20 text-sky-300 border border-sky-400/30"
                   : "text-slate-400 hover:text-white"
@@ -121,16 +121,16 @@ export const LeaderboardPage = () => {
 
         {/* Right Search & Strict Filter */}
         <div className="flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
-          <label className="flex items-center gap-2 text-xs text-slate-300 font-semibold cursor-pointer whitespace-nowrap">
+          <label className="flex items-center gap-2 text-xs text-slate-300 font-semibold cursor-pointer whitespace-nowrap w-full sm:w-auto justify-between sm:justify-start">
+            <span className="flex items-center gap-1">
+              <Flame className="w-3.5 h-3.5 text-red-500" /> Strict Mode Users
+            </span>
             <input
               type="checkbox"
               checked={strictOnly}
               onChange={(e) => setStrictOnly(e.target.checked)}
               className="w-4 h-4 accent-red-500 rounded"
             />
-            <span className="flex items-center gap-1">
-              <Flame className="w-3.5 h-3.5 text-red-500" /> Strict Mode Users
-            </span>
           </label>
 
           <div className="relative w-full sm:w-48">
@@ -140,7 +140,7 @@ export const LeaderboardPage = () => {
               placeholder="Search user..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-100 text-xs focus:outline-none focus:border-sky-400"
+              className="w-full pl-9 pr-3 py-2 sm:py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-100 text-xs focus:outline-none focus:border-sky-400"
             />
           </div>
         </div>
@@ -150,9 +150,9 @@ export const LeaderboardPage = () => {
       {loading ? (
         <div className="py-16 text-center text-slate-400 text-sm">Updating leaderboard...</div>
       ) : (
-        <div className="glass-panel rounded-3xl border border-sky-500/20 overflow-hidden shadow-xl">
+        <div className="glass-panel rounded-2xl sm:rounded-3xl border border-sky-500/20 overflow-hidden shadow-xl">
           <div className="overflow-x-auto">
-            <table className="w-full text-left text-xs text-slate-300">
+            <table className="w-full min-w-[550px] text-left text-xs text-slate-300">
               <thead className="bg-slate-900/90 text-slate-400 uppercase text-[10px] font-bold tracking-wider border-b border-slate-800">
                 <tr>
                   <th className="py-3.5 px-4">Rank</th>

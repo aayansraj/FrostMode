@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FrostMode - Full-Stack Project Documentation & Technical Report</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap');
@@ -18,9 +19,15 @@
       color: #e2e8f0;
       line-height: 1.6;
       margin: 0;
-      padding: 40px;
+      padding: 16px;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
+    }
+
+    @media (min-width: 640px) {
+      body {
+        padding: 40px;
+      }
     }
 
     .container {
@@ -28,9 +35,16 @@
       margin: 0 auto;
       background: #0f172a;
       border: 1px solid rgba(56, 189, 248, 0.25);
-      border-radius: 24px;
-      padding: 40px;
+      border-radius: 16px;
+      padding: 20px;
       box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+
+    @media (min-width: 640px) {
+      .container {
+        border-radius: 24px;
+        padding: 40px;
+      }
     }
 
     .header {
