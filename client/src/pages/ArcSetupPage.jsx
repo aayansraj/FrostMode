@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { AuthContext } from "../context/AuthContext";
 import { Snowflake, Flame, Calendar, Check, ShieldAlert, ArrowRight } from "lucide-react";
 
 export const ArcSetupPage = () => {
+  const { user, updateUser } = useContext(AuthContext);
   const [totalDays, setTotalDays] = useState(60);
   const [customDays, setCustomDays] = useState("");
   const [startDate, setStartDate] = useState(new Date().toISOString().split("T")[0]);
@@ -48,22 +50,58 @@ export const ArcSetupPage = () => {
 
   const handleStartArc = async () => {
     setLoading(true);
+    const daysCount = totalDays === "custom" ? Number(customDays) || 30 : Number(totalDays);
+    const arcPayload = {
+      totalDays: daysCount,
+      startDate,
+      strictMode,
+      categories: selectedCategories,
+      goals
+    };
+
     try {
-      const daysCount = totalDays === "custom" ? Number(customDays) || 30 : Number(totalDays);
-      await axios.post("/api/arc/create", {
-        totalDays: daysCount,
-        startDate,
-        strictMode,
-        categories: selectedCategories,
-        goals
-      });
-      navigate("/dashboard");
+      const res = await axios.post("/api/arc/create", arcPayload);
+      if (res && res.data && (res.data.arc || res.data.message)) {
+        navigate("/dashboard");
+        return;
+      }
     } catch (err) {
-      console.error("Start Arc error:", err);
-      alert("Failed to start Arc. Please try again.");
-    } finally {
-      setLoading(false);
+      console.warn("Backend arc create unavailable, activating Netlify fallback:", err.message);
     }
+
+    // Client-side Netlify Fallback: Save Arc & Days to LocalStorage
+    const newArc = {
+      _id: `arc_${Date.now()}`,
+      totalDays: daysCount,
+      startDate,
+      strictMode,
+      categories: selectedCategories,
+      goals,
+      status: "active",
+      createdAt: new Date().toISOString()
+    };
+    localStorage.setItem("frostmode_arc", JSON.stringify(newArc));
+
+    const generatedDays = Array.from({ length: daysCount }, (_, i) => {
+      const d = new Date(startDate || new Date());
+      d.setDate(d.getDate() + i);
+      return {
+        _id: `day_${i + 1}`,
+        dayNumber: i + 1,
+        date: d.toISOString().split("T")[0],
+        status: "pending",
+        completionRate: 0,
+        note: ""
+      };
+    });
+    localStorage.setItem("frostmode_days", JSON.stringify(generatedDays));
+
+    if (user) {
+      updateUser({ strictMode });
+    }
+
+    setLoading(false);
+    navigate("/dashboard");
   };
 
   return (
