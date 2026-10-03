@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FrostMode - Full-Stack Project Documentation & Technical Report</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap');
+    
+    @page {
+      size: A4;
+      margin: 15mm 15mm 15mm 15mm;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background-color: #0b1120;
+      color: #e2e8f0;
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #0f172a;
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: 24px;
+      padding: 40px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+
+    .header {
+      text-align: center;
+      border-bottom: 2px solid rgba(56, 189, 248, 0.2);
+      padding-bottom: 30px;
+      margin-bottom: 35px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #38bdf8;
+      border-radius: 9999px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 34px;
+      font-weight: 900;
+      color: #ffffff;
+      margin: 10px 0;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      color: #38bdf8;
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(56, 189, 248, 0.15);
+      padding: 16px 20px;
+      border-radius: 16px;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 13px;
+    }
+
+    .meta-item span {
+      color: #94a3b8;
+      font-weight: 500;
+    }
+    .meta-item strong {
+      color: #38bdf8;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      color: #f8fafc;
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #7dd3fc;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      font-size: 14px;
+      color: #cbd5e1;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .table-custom {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 13px;
+    }
+
+    .table-custom th {
+      background: #1e293b;
+      color: #38bdf8;
+      text-align: left;
+      padding: 12px;
+      border: 1px solid #334155;
+      font-weight: 700;
+    }
+
+    .table-custom td {
+      padding: 10px 12px;
+      border: 1px solid #334155;
+      color: #e2e8f0;
+    }
+
+    .table-custom tr:nth-child(even) {
+      background: rgba(30, 41, 59, 0.5);
+    }
+
+    .code-box {
+      background: #090d16;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 14px 18px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 12px;
+      color: #38bdf8;
+      overflow-x: auto;
+      margin: 15px 0;
+    }
+
+    .step-card {
+      background: rgba(30, 41, 59, 0.4);
+      border: 1px solid rgba(56, 189, 248, 0.15);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .step-number {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      background: #38bdf8;
+      color: #090d16;
+      font-weight: 900;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 14px;
+      margin-right: 10px;
+    }
+
+    .step-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: #ffffff;
+      display: flex;
+      items-center: center;
+    }
+
+    .footer-note {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(56, 189, 248, 0.2);
+      font-size: 12px;
+      color: #64748b;
+    }
+
+    @media print {
+      body {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        padding: 0 !important;
+      }
+      .container {
+        border: none !important;
+        box-shadow: none !important;
+        background: #ffffff !important;
+        color: #000000 !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+      }
+      h1, h2, h3, .subtitle, strong {
+        color: #000000 !important;
+      }
+      p, li, td {
+        color: #333333 !important;
+      }
+      .table-custom th {
+        background: #f1f5f9 !important;
+        color: #000000 !important;
+      }
+      .code-box {
+        background: #f8fafc !important;
+        color: #0f172a !important;
+        border: 1px solid #cbd5e1 !important;
+      }
+      .step-card {
+        background: #f8fafc !important;
+        border: 1px solid #cbd5e1 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- HEADER -->
+    <div class="header">
+      <div class="badge">Comprehensive Project Report</div>
+      <h1>FROSTMODE — WINTER ARC TRACKER</h1>
+      <div class="subtitle">"Lock In. Level Up."</div>
+      <p style="margin: 0; font-size: 13px; color: #94a3b8;">Full-Stack Web Application Architecture, Cloud Database Connection, and Production Deployment Report</p>
+
+      <div class="meta-grid">
+        <div class="meta-item"><span>Developer / Student:</span> <strong>Aayans Raj</strong></div>
+        <div class="meta-item"><span>Project Name:</span> <strong>FrostMode (Winter Arc Tracker)</strong></div>
+        <div class="meta-item"><span>Live Web App:</span> <strong>https://frostmodewinterarc.netlify.app</strong></div>
+        <div class="meta-item"><span>Database:</span> <strong>Supabase Cloud PostgreSQL (1,000 Tasks)</strong></div>
+        <div class="meta-item"><span>Source Code:</span> <strong>https://github.com/aayansraj/FrostMode</strong></div>
+        <div class="meta-item"><span>Date:</span> <strong>October 3, 2026</strong></div>
+      </div>
+    </div>
+
+    <!-- SECTION 1: PROJECT OVERVIEW -->
+    <h2>1. Executive Project Overview</h2>
+    <p>
+      <strong>FrostMode</strong> is a full-stack gamified Winter Arc daily routine and habit tracking application engineered to help users lock in for a 90-day discipline challenge. The application features a collection of <strong>1,000 structured Winter Arc tasks</strong>, strict mode multiplier penalties (+50% bonus / -50% penalty), real-time leaderboards powered by Socket.io, a custom points store, progress heatmaps, and an interactive dark winter glassmorphism user interface.
+    </p>
+
+    <!-- SECTION 2: SYSTEM ARCHITECTURE -->
+    <h2>2. Technology Stack & Architecture</h2>
+    <table class="table-custom">
+      <thead>
+        <tr>
+          <th>Layer</th>
+          <th>Technology Used</th>
+          <th>Purpose & Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Frontend UI</strong></td>
+          <td>React 18 (Vite), TailwindCSS</td>
+          <td>Responsive single-page app (SPA) with dark glassmorphism aesthetic.</td>
+        </tr>
+        <tr>
+          <td><strong>Animations & Icons</strong></td>
+          <td>Lucide React, Animated SVGs, HTML5 Canvas</td>
+          <td>Falling snow animation canvas, custom ice cursor with particle trail effect.</td>
+        </tr>
+        <tr>
+          <td><strong>Backend API</strong></td>
+          <td>Node.js, Express.js</td>
+          <td>REST API routes for Auth, Tasks, Leaderboard, Analytics, and Rewards.</td>
+        </tr>
+        <tr>
+          <td><strong>Real-Time Updates</strong></td>
+          <td>Socket.io WebSockets</td>
+          <td>Live updates for global warrior leaderboard rankings and podium placement.</td>
+        </tr>
+        <tr>
+          <td><strong>Cloud Database</strong></td>
+          <td>Supabase PostgreSQL (Cloud)</td>
+          <td>Relational database hosting 1,000 tasks across 7 SQL schemas with AWS connection pooling.</td>
+        </tr>
+        <tr>
+          <td><strong>Authentication</strong></td>
+          <td>Google OAuth 2.0 + JWT + Bcrypt</td>
+          <td>Secure identity verification, fail-proof session tokens, and eye toggle passwords.</td>
+        </tr>
+        <tr>
+          <td><strong>Hosting & Deployment</strong></td>
+          <td>Netlify + GitHub Auto-CI/CD</td>
+          <td>Automated continuous integration build & production static web hosting.</td>
+        </tr>
+        <tr>
+          <td><strong>SEO & Indexing</strong></td>
+          <td>Google Search Console & Meta Tags</td>
+          <td>Search engine optimization, OpenGraph tags, ownership verification, priority indexing.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- SECTION 3: STEP BY STEP DEVELOPMENT JOURNEY -->
+    <h2>3. Step-by-Step Implementation Journey</h2>
+
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-number">1</span>
+        Brand Identity & Animated SVG Logos
+      </div>
+      <p>
+        Designed and embedded custom animated brand logos (<code>frostmode-logo-animated-dark.svg</code>, <code>frostmode-logo-animated-light.svg</code>, and <code>frostmode-icon-animated.svg</code>) featuring glowing snowflake pulses and sleek typography matching the "Lock In. Level Up." theme.
+      </p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-number">2</span>
+        Custom Interactive Ice Cursor & Snow FX
+      </div>
+      <p>
+        Developed an interactive custom cursor component (<code>CustomCursor.jsx</code>) with dynamic ice trail particles and hover states, combined with an HTML5 canvas snow background (<code>SnowBackground.jsx</code>) for a 60 FPS winter aesthetic.
+      </p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-number">3</span>
+        1,000 Winter Arc Tasks & Database Schema Design
+      </div>
+      <p>
+        Constructed a 1,000-task JSON library (<code>winter_arc_tasks.json</code>) covering Health, Fitness, Mindset, and Productivity. Designed 7 database schemas:
+      </p>
+      <ul>
+        <li><code>users</code> — User profiles, level ranks, wallet points, streaks, avatars</li>
+        <li><code>arcs</code> — 90-day Winter Arc setup and strict mode parameters</li>
+        <li><code>days</code> — Daily routine tracking & notes</li>
+        <li><code>library_tasks</code> — Master repository of 1,000 tasks</li>
+        <li><code>tasks</code> — User active daily task commitments</li>
+        <li><code>points_logs</code> — Itemized point earnings and penalty transactions</li>
+        <li><code>rewards</code> — Custom rewards store redemptions</li>
+      </ul>
+    </div>
+
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-number">4</span>
+        Supabase Cloud PostgreSQL Database Integration
+      </div>
+      <p>
+        Connected the backend to Supabase PostgreSQL cloud infrastructure (<code>aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres</code>). Built an automated batch seeder (<code>initPostgres.js</code>) that creates SQL tables and seeds all 1,000 tasks and demo warriors into Supabase in less than 1 second.
+      </p>
+      <div class="code-box">
+        DATABASE_URL="postgresql://postgres.iigurmvwjkjsnmhhgwqq:[PASSWORD]@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-number">5</span>
+        Google OAuth 2.0 Integration & Show/Hide Password Toggle
+      </div>
+      <p>
+        Integrated Google Identity Services using OAuth Client ID <code>1061825611076-r9st2ddp2vcv29alm9m1m5r83h9ejdg6.apps.googleusercontent.com</code>. Added an eye toggle button for password visibility on sign-in and created a fail-proof authentication context (<code>AuthContext.jsx</code>) ensuring smooth session token persistence.
+      </p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-number">6</span>
+        Executive Glassmorphic Navbar Redesign
+      </div>
+      <p>
+        Redesigned the main header navigation (<code>Navbar.jsx</code>) into a floating glassmorphic pill with single-line non-wrapping item labels (<code>whitespace-nowrap</code>), real-time snowflake points counter, user level rank badge (<code>👑 Beginner</code>), strict mode indicator, and mobile menu drawer.
+      </p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-number">7</span>
+        Netlify Production Deployment & Build Pipeline Fixes
+      </div>
+      <p>
+        Deployed the application on Netlify (<code>frostmodewinterarc.netlify.app</code>). Configured <code>netlify.toml</code> build commands (<code>npm install --prefix client && npm run build --prefix client</code>) and SPA redirects (<code>/* /index.html 200</code>) to prevent 404 page refresh errors.
+      </p>
+    </div>
+
+    <div class="step-card">
+      <div class="step-title">
+        <span class="step-number">8</span>
+        Google Search Indexing & Ownership Verification
+      </div>
+      <p>
+        Added Google site verification meta tag (<code>YVrSh6zte2biHSoLdRdTngmIVQW4dXYizKE0obyDTYc</code>) and OpenGraph tags to <code>index.html</code>. Successfully verified website ownership on Google Search Console and submitted priority search indexing requests for Google Search results.
+      </p>
+    </div>
+
+    <!-- SECTION 4: LIVE PROJECT LINKS -->
+    <h2>4. Live Verification & Credentials</h2>
+    <table class="table-custom">
+      <thead>
+        <tr>
+          <th>Resource</th>
+          <th>URL / Access Details</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Live Website (Netlify)</strong></td>
+          <td><a href="https://frostmodewinterarc.netlify.app" target="_blank" style="color: #38bdf8;">https://frostmodewinterarc.netlify.app</a></td>
+          <td>🟢 Active & Live</td>
+        </tr>
+        <tr>
+          <td><strong>GitHub Source Code</strong></td>
+          <td><a href="https://github.com/aayansraj/FrostMode" target="_blank" style="color: #38bdf8;">https://github.com/aayansraj/FrostMode</a></td>
+          <td>🟢 Synced & Maintained</td>
+        </tr>
+        <tr>
+          <td><strong>Supabase DB Dashboard</strong></td>
+          <td><a href="https://supabase.com/dashboard/project/iigurmvwjkjsnmhhgwqq" target="_blank" style="color: #38bdf8;">https://supabase.com/dashboard/project/iigurmvwjkjsnmhhgwqq</a></td>
+          <td>🟢 1,000 Tasks Seeded</td>
+        </tr>
+        <tr>
+          <td><strong>Local Development URL</strong></td>
+          <td>http://localhost:3000</td>
+          <td>🟢 Local Vite Server</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="footer-note">
+      <strong>FrostMode Project Report</strong> • Prepared for Presentation • "Lock In. Level Up."
+    </div>
+
+  </div>
+
+</body>
+</html>
